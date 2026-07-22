@@ -1,0 +1,1485 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(145, 111, 60, 0.6) rgba(245, 245, 245, 0.9);
+}
+
+body {
+  background-color: whitesmoke;
+  position: relative;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(145, 111, 60, 0.6) rgba(245, 245, 245, 0.9);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(245, 245, 245, 0.9);
+}
+
+::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(145, 111, 60, 0.75)), to(rgba(92, 69, 34, 0.9)));
+  background: linear-gradient(180deg, rgba(145, 111, 60, 0.75), rgba(92, 69, 34, 0.9));
+  border-radius: 999px;
+  border: 2px solid rgba(245, 245, 245, 0.9);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(123, 94, 50, 0.9)), to(rgb(73, 52, 24)));
+  background: linear-gradient(180deg, rgba(123, 94, 50, 0.9), rgb(73, 52, 24));
+}
+
+.pre-header p {
+  color: rgb(204, 201, 201);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 11px;
+  background: linear-gradient(135deg, #1C1917 0%, #5a4628 100%);
+  top: 0;
+  padding: 10px 0px;
+  font-weight: 700;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  z-index: 2500;
+  background: rgba(65, 52, 33, 0.7);
+  color: whitesmoke;
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.scroll-top-btn .scroll-top-icon {
+  color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+}
+.scroll-top-btn:hover {
+  background: rgba(65, 52, 33, 0.9);
+}
+
+.scroll-top-btn.visible {
+  opacity: 1;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 200px;
+  padding: 10px 0px;
+  position: fixed;
+  top: 35px;
+  width: 100%;
+  z-index: 1000;
+  background: whitesmoke;
+}
+header .menu-bar {
+  display: none;
+}
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+header li {
+  list-style: none;
+}
+header a {
+  color: rgb(36, 36, 36);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 11px;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.2rem;
+}
+header a .about {
+  margin-right: 20px;
+}
+header .logo {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-weight: 700;
+  color: rgb(36, 36, 36);
+}
+header .logo .logo-link {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  text-decoration: none;
+  background: linear-gradient(135deg, #1C1917 0%, #5a4628 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  margin-right: 250px;
+}
+header .icon-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+}
+header .icon-header a {
+  color: rgb(36, 36, 36);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.shop-heading-container {
+  padding: 60px 0px 0px 80px;
+}
+.shop-heading-container .shop-heading {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.19rem;
+  color: #67605B;
+  font-weight: 500;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.shop-heading-container .shop-heading2 {
+  color: #1C1917;
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 1.1;
+}
+.shop-heading-container .shop-heading3 {
+  color: #67605B;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 5px;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  width: 70%;
+  line-height: 1.7;
+}
+.shop-heading-container .line-demacator {
+  width: 55%;
+  height: 0.5px;
+  background: rgba(28, 25, 23, 0.2);
+  margin: 35px 0px 35px 0px;
+}
+
+.sidebar-container {
+  position: fixed;
+  right: 2%;
+  top: 15%;
+  z-index: 100;
+  padding-right: 15px;
+}
+.sidebar-container .category {
+  background: transparent;
+}
+.sidebar-container .category .category-head {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.19rem;
+  color: #67605B;
+  font-weight: 500;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.sidebar-container .category .items {
+  color: rgb(36, 36, 36);
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 5px;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  line-height: 2.5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 5px;
+     -moz-column-gap: 5px;
+          column-gap: 5px;
+}
+.sidebar-container .category .size-head {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.19rem;
+  color: #67605B;
+  font-weight: 500;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+.sidebar-container .category .size-head .size-types {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+}
+.sidebar-container .category .size-head .size-types .size-category {
+  margin-top: 15px;
+  color: rgb(36, 36, 36);
+  font-size: 13px;
+  padding: 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid rgba(28, 25, 23, 0.2);
+}
+.sidebar-container .category .color-head {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.19rem;
+  color: #67605B;
+  font-weight: 500;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+.sidebar-container .category .color-head .color-types {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 15px;
+  row-gap: 10px;
+}
+.sidebar-container .category .color-head .color-types .color-row-1, .sidebar-container .category .color-head .color-types .color-row-8, .sidebar-container .category .color-head .color-types .color-row-7, .sidebar-container .category .color-head .color-types .color-row-6, .sidebar-container .category .color-head .color-types .color-row-5, .sidebar-container .category .color-head .color-types .color-row-4, .sidebar-container .category .color-head .color-types .color-row-3, .sidebar-container .category .color-head .color-types .color-row-2 {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #896226;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.sidebar-container .category .color-head .color-types .color-row-2 {
+  background: #4A4E2D;
+}
+.sidebar-container .category .color-head .color-types .color-row-3 {
+  background: #EFE6D2;
+}
+.sidebar-container .category .color-head .color-types .color-row-4 {
+  background: #2a3a56;
+}
+.sidebar-container .category .color-head .color-types .color-row-5 {
+  background: black;
+}
+.sidebar-container .category .color-head .color-types .color-row-6 {
+  background: grey;
+}
+.sidebar-container .category .color-head .color-types .color-row-7 {
+  background: rgba(255, 0, 0, 0.721);
+}
+.sidebar-container .category .color-head .color-types .color-row-8 {
+  background: green;
+}
+.sidebar-container .category .price-head {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.19rem;
+  color: #67605B;
+  font-weight: 500;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top: 35px;
+}
+.sidebar-container .category #items {
+  color: rgb(36, 36, 36);
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 5px;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  line-height: 2.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.recently-added-container {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container .recently-added-colors .color-1, .recently-added-container .recently-added-container5 .recently-added-colors .color-12, .recently-added-container5 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container5 .recently-added-colors .color-11, .recently-added-container5 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container5 .recently-added-colors .color-10, .recently-added-container5 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container4 .recently-added-colors .color-12, .recently-added-container4 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container4 .recently-added-colors .color-11, .recently-added-container4 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container4 .recently-added-colors .color-10, .recently-added-container4 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container .recently-added-colors .color-9, .recently-added-container .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container .recently-added-colors .color-8, .recently-added-container .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container .recently-added-colors .color-7, .recently-added-container .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container .recently-added-colors .color-6, .recently-added-container .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container .recently-added-colors .color-5, .recently-added-container .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container .recently-added-colors .color-4, .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-colors .color-2 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container .recently-added-colors .color-2 {
+  background: #A35201;
+}
+.recently-added-container .recently-added-colors .color-3 {
+  background: rgb(121, 120, 120);
+}
+.recently-added-container .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container .recently-added-card, .recently-added-container .recently-added-container2 .recently-added-card-2, .recently-added-container2 .recently-added-container .recently-added-card-2 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container .recently-added-card:hover, .recently-added-container .recently-added-container2 .recently-added-card-2:hover, .recently-added-container2 .recently-added-container .recently-added-card-2:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container .recently-added-wrapper {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container .recently-added-image {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 1.png") center/cover no-repeat;
+}
+.recently-added-container .recently-added-card:hover .recently-added-image, .recently-added-container .recently-added-container2 .recently-added-card-2:hover .recently-added-image, .recently-added-container2 .recently-added-container .recently-added-card-2:hover .recently-added-image {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container .recently-added-card:hover .text-overlay, .recently-added-container .recently-added-container2 .recently-added-card-2:hover .text-overlay, .recently-added-container2 .recently-added-container .recently-added-card-2:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container .recently-added-card:hover .product-title, .recently-added-container .recently-added-container2 .recently-added-card-2:hover .product-title, .recently-added-container2 .recently-added-container .recently-added-card-2:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container2 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container2 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container2 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container2 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container2 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container2 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container2 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container2 .recently-added-colors .color-1, .recently-added-container2 .recently-added-container5 .recently-added-colors .color-12, .recently-added-container5 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container5 .recently-added-colors .color-11, .recently-added-container5 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container5 .recently-added-colors .color-10, .recently-added-container5 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container4 .recently-added-colors .color-12, .recently-added-container4 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container4 .recently-added-colors .color-11, .recently-added-container4 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container4 .recently-added-colors .color-10, .recently-added-container4 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-9, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-8, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-7, .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container2 .recently-added-colors .color-2, .recently-added-container2 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container2 .recently-added-colors .color-3 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container2 .recently-added-colors .color-4 {
+  background: #516A84;
+}
+.recently-added-container2 .recently-added-colors .color-5 {
+  background: rgb(36, 36, 36);
+}
+.recently-added-container2 .recently-added-colors .color-6 {
+  background: rgb(121, 120, 120);
+}
+.recently-added-container2 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container2 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container2 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container2 .recently-added-card, .recently-added-container2 .recently-added-card-2 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container2 .recently-added-card-2:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container2 .recently-added-wrapper-2 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container2 .recently-added-image-2 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 2.png") center/cover no-repeat;
+}
+.recently-added-container2 .recently-added-card:hover .recently-added-image-2, .recently-added-container2 .recently-added-card-2:hover .recently-added-image-2 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container2 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container2 .recently-added-card:hover .text-overlay, .recently-added-container2 .recently-added-card-2:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container2 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container2 .recently-added-card:hover .product-title, .recently-added-container2 .recently-added-card-2:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container3 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container3 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container3 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container3 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container3 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container3 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container3 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container3 .recently-added-colors .color-1, .recently-added-container3 .recently-added-container5 .recently-added-colors .color-12, .recently-added-container5 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container5 .recently-added-colors .color-11, .recently-added-container5 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container5 .recently-added-colors .color-10, .recently-added-container5 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container4 .recently-added-colors .color-12, .recently-added-container4 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container4 .recently-added-colors .color-11, .recently-added-container4 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container4 .recently-added-colors .color-10, .recently-added-container4 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container3 .recently-added-colors .color-2, .recently-added-container3 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container3 .recently-added-colors .color-3, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-4, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-5, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-6 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container3 .recently-added-colors .color-7 {
+  background: #6B0703;
+}
+.recently-added-container3 .recently-added-colors .color-8 {
+  background: rgb(121, 120, 120);
+}
+.recently-added-container3 .recently-added-colors .color-9 {
+  background: rgb(121, 120, 120);
+}
+.recently-added-container3 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container3 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container3 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container3 .recently-added-card-3 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container3 .recently-added-card-3:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container3 .recently-added-wrapper-3 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container3 .recently-added-image-3 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 3.png") center/cover no-repeat;
+}
+.recently-added-container3 .recently-added-card-3:hover .recently-added-image-3 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container3 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container3 .recently-added-card-3:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container3 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container3 .recently-added-card-3:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container4 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container4 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container4 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container4 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container4 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container4 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container4 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container4 .recently-added-colors .color-1, .recently-added-container4 .recently-added-colors .color-12, .recently-added-container4 .recently-added-colors .color-11, .recently-added-container4 .recently-added-colors .color-10, .recently-added-container4 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container4 .recently-added-colors .color-2, .recently-added-container4 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container4 .recently-added-colors .color-3, .recently-added-container4 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container4 .recently-added-colors .color-4, .recently-added-container4 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container4 .recently-added-colors .color-5, .recently-added-container4 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container4 .recently-added-colors .color-6, .recently-added-container4 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container4 .recently-added-colors .color-7, .recently-added-container4 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container4 .recently-added-colors .color-8, .recently-added-container4 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container4 .recently-added-colors .color-9 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container4 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container4 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container4 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container4 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container4 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container4 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container4 .recently-added-card-4 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container4 .recently-added-card-4:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container4 .recently-added-wrapper-4 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container4 .recently-added-image-4 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 4.png") center/cover no-repeat;
+}
+.recently-added-container4 .recently-added-card-4:hover .recently-added-image-4 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container4 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container4 .recently-added-card-4:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container4 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container4 .recently-added-card-4:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container5 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container5 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container5 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container5 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container5 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container5 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container5 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container5 .recently-added-colors .color-1, .recently-added-container5 .recently-added-colors .color-12, .recently-added-container5 .recently-added-colors .color-11, .recently-added-container5 .recently-added-colors .color-10, .recently-added-container5 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container5 .recently-added-colors .color-2, .recently-added-container5 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container5 .recently-added-colors .color-3, .recently-added-container5 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container5 .recently-added-colors .color-4, .recently-added-container5 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container5 .recently-added-colors .color-5, .recently-added-container5 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container5 .recently-added-colors .color-6, .recently-added-container5 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container5 .recently-added-colors .color-7, .recently-added-container5 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container5 .recently-added-colors .color-8, .recently-added-container5 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container5 .recently-added-colors .color-9 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container5 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container5 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container5 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container5 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container5 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container5 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container5 .recently-added-card-5 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container5 .recently-added-card-5:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container5 .recently-added-wrapper-5 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container5 .recently-added-image-5 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 5.jpg") center/cover no-repeat;
+}
+.recently-added-container5 .recently-added-card-5:hover .recently-added-image-5 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container5 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container5 .recently-added-card-5:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container5 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container5 .recently-added-card-5:hover .product-title {
+  opacity: 1;
+}
+
+.email-subscription-container {
+  background: linear-gradient(135deg, #1C1917 0%, #5a4628 100%);
+  width: 100%;
+  min-height: 68vh;
+  margin-top: 130px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 72px 24px;
+  z-index: 2000;
+}
+.email-subscription-container .email-subscription-content {
+  text-align: center;
+  max-width: 760px;
+  width: 100%;
+}
+.email-subscription-container .email-subscription-content .email-subhead {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.2rem;
+  color: rgb(204, 201, 201);
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.email-subscription-container .email-subscription-content .email-head {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  color: whitesmoke;
+  font-size: clamp(2.4rem, 4vw, 4.1rem);
+  width: min(100%, 620px);
+  margin: 0 auto;
+  line-height: 1.05;
+  margin-top: 0.5rem;
+}
+.email-subscription-container .email-subscription-content .email-detail {
+  font-size: 16px;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  color: rgb(204, 201, 201);
+  width: min(100%, 560px);
+  margin: 1.3rem auto 0;
+  line-height: 1.75;
+}
+.email-subscription-container .email-subscription-content form {
+  margin-top: 2.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 16px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.email-subscription-container .email-subscription-content form .email-input {
+  margin: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 320px;
+          flex: 1 1 320px;
+  max-width: 380px;
+}
+.email-subscription-container .email-subscription-content form .email-input-box {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 10px 0;
+  color: whitesmoke;
+}
+.email-subscription-container .email-subscription-content form .email-input-box::-webkit-input-placeholder {
+  font-size: 15px;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  color: rgba(245, 243, 239, 0.7);
+}
+.email-subscription-container .email-subscription-content form .email-input-box::-moz-placeholder {
+  font-size: 15px;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  color: rgba(245, 243, 239, 0.7);
+}
+.email-subscription-container .email-subscription-content form .email-input-box:-ms-input-placeholder {
+  font-size: 15px;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  color: rgba(245, 243, 239, 0.7);
+}
+.email-subscription-container .email-subscription-content form .email-input-box::-ms-input-placeholder {
+  font-size: 15px;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  color: rgba(245, 243, 239, 0.7);
+}
+.email-subscription-container .email-subscription-content form .email-input-box::placeholder {
+  font-size: 15px;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  color: rgba(245, 243, 239, 0.7);
+}
+.email-subscription-container .email-subscription-content .submit-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.email-subscription-container .email-subscription-content .submit-btn .submit-link {
+  display: inline-block;
+  font-size: 12px;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  color: whitesmoke;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  -webkit-transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
+  transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.email-subscription-container .email-subscription-content .submit-btn .submit-link:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.footer {
+  background: linear-gradient(135deg, #171311 0%, #2d241b 100%);
+  color: whitesmoke;
+  padding: 64px 100px 28px;
+  position: relative;
+  z-index: 1000;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.footer .footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+.footer .footer-brand {
+  max-width: 280px;
+}
+.footer .footer-brand .footer-logo {
+  display: inline-block;
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  letter-spacing: 0.06em;
+}
+.footer .footer-brand p {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  color: rgba(245, 243, 239, 0.8);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+.footer .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.footer .footer-column {
+  min-width: 150px;
+}
+.footer .footer-column h4 {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  color: #e6d8bf;
+  margin-bottom: 14px;
+}
+.footer .footer-column ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+.footer .footer-column a {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.95rem;
+  color: rgba(245, 243, 239, 0.8);
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+.footer .footer-column a:hover {
+  color: #b58338;
+}
+.footer .footer-column p {
+  margin-top: 25px;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: rgba(245, 243, 239, 0.4);
+  width: 80%;
+}
+.footer .footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 24px;
+}
+.footer .footer-bottom p {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: rgba(245, 243, 239, 0.7);
+}
+.footer .footer-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+}
+.footer .footer-socials a {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: whitesmoke;
+  text-decoration: none;
+  -webkit-transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
+  transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease, -webkit-transform 0.3s ease;
+}
+.footer .footer-socials a:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 780px) {
+  .footer {
+    padding: 48px 24px 24px;
+  }
+  .footer .footer-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer-links {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 24px;
+  }
+  .footer .footer-bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}/*# sourceMappingURL=shop.css.map */
