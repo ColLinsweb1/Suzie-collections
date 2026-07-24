@@ -384,16 +384,16 @@ main .hero-texts .hero-button-container .hero-texts-btn2 {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
-  background: url("../../images/shirt category image.png") center/cover no-repeat;
+  background: url("../../images/shirt category image-1.jpg") center/cover no-repeat;
 }
 .product-container .product-image2, .product-container2 .product-image2 {
-  background: url("../../images/trousers category image.png") center/cover no-repeat;
+  background: url("../../images/trousers category image.jpg") center/cover no-repeat;
 }
 .product-container .product-image3, .product-container2 .product-image3 {
-  background: url("../../images/night wears image.png") center/cover no-repeat;
+  background: url("../../images/night wears image.jpg") center/cover no-repeat;
 }
 .product-container .product-image4, .product-container2 .product-image4 {
-  background: url("../../images/baggy Jeans image.png") center/cover no-repeat;
+  background: url("../../images/baggy Jeans image.jpg") center/cover no-repeat;
 }
 .product-container .product-card:hover .product-image, .product-container2 .product-card:hover .product-image,
 .product-container .product-card2:hover .product-image2,
@@ -534,25 +534,25 @@ main .hero-texts .hero-button-container .hero-texts-btn2 {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
-  background: url("../../images/maxi gowns image.png") center/cover no-repeat;
+  background: url("../../images/maxi gowns image.jpg") center/cover no-repeat;
 }
 .product-container2 .img-wrapper-1 .product-image-2,
 .product-container2 .img-wrapper-2 .product-image-2,
 .product-container2 .img-wrapper-3 .product-image-2,
 .product-container2 .img-wrapper-4 .product-image-2 {
-  background: url("../../images/jogger wears image.png") center/cover no-repeat;
+  background: url("../../images/jogger wears image.jpg") center/cover no-repeat;
 }
 .product-container2 .img-wrapper-1 .product-image-3,
 .product-container2 .img-wrapper-2 .product-image-3,
 .product-container2 .img-wrapper-3 .product-image-3,
 .product-container2 .img-wrapper-4 .product-image-3 {
-  background: url("../../images/tote bags image.png") center/cover no-repeat;
+  background: url("../../images/tote bags image.jpg") center/cover no-repeat;
 }
 .product-container2 .img-wrapper-1 .product-image-4,
 .product-container2 .img-wrapper-2 .product-image-4,
 .product-container2 .img-wrapper-3 .product-image-4,
 .product-container2 .img-wrapper-4 .product-image-4 {
-  background: url("../../images/jewelry image.png") center/cover no-repeat;
+  background: url("../../images/jewelry image.jpg") center/cover no-repeat;
 }
 .product-container2 .product-card-1:hover .product-image-1 {
   -webkit-transform: scale(1.08);
@@ -913,7 +913,7 @@ main .hero-texts .hero-button-container .hero-texts-btn2 {
   min-height: 84vh;
   width: 92%;
   max-width: 540px;
-  background: url("../../images/about us image.png") center/cover no-repeat;
+  background: url("../../images/about us image.jpg") center/cover no-repeat;
   overflow: hidden;
   -webkit-box-shadow: 0 20px 45px rgba(28, 25, 23, 0.14);
           box-shadow: 0 20px 45px rgba(28, 25, 23, 0.14);
@@ -980,7 +980,7 @@ main .hero-texts .hero-button-container .hero-texts-btn2 {
   width: 100%;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background: url("../../images/whole image background.png") center/cover no-repeat;
+  background: url("../../images/whole image background.jpg") center/cover no-repeat;
 }
 .image-background-container .image-background:hover {
   background: url("../../images/whole image background 2.png") center/cover no-repeat;
@@ -1206,13 +1206,13 @@ main .hero-texts .hero-button-container .hero-texts-btn2 {
           transform: scale(1.04);
 }
 .most-picked-overall .most-picked-card .most-picked-image-wrapper .most-picked-image-1 {
-  background-image: url("../../images/most picked 1.png");
+  background-image: url("../../images/most picked 1.jpg");
 }
 .most-picked-overall .most-picked-card .most-picked-image-wrapper .most-picked-image-2 {
   background-image: url("../../images/recently added 3.jpg");
 }
 .most-picked-overall .most-picked-card .most-picked-image-wrapper .most-picked-image-3 {
-  background-image: url("../../images/jewelry image.png");
+  background-image: url("../../images/jewelry image.jpg");
 }
 .most-picked-overall .most-picked-card .most-picked-image-wrapper .most-picked-overlay {
   position: absolute;
@@ -1829,6 +1829,13 @@ main .hero-texts .hero-button-container .hero-texts-btn2 {
     font-size: 0.95rem;
     font-weight: 700;
   }
+  .offcanvas .offcanvas-header .offcanvas-title a {
+    text-decoration: none;
+    background: linear-gradient(135deg, #1C1917 0%, #5a4628 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+  }
   .offcanvas .offcanvas-header .offcanvas-close {
     width: 40px;
     height: 40px;
@@ -2013,7 +2020,7 @@ main .hero-texts .hero-button-container .hero-texts-btn2 {
     cursor: pointer;
   }
   main {
-    background: url("../../images/hero-img2.png") center/cover no-repeat;
+    background: url("../../images/hero-img2.jpg") center/cover no-repeat;
     min-height: 100vh;
     width: 100%;
     -webkit-transition: all 0.7s ease;
@@ -2021,7 +2028,7 @@ main .hero-texts .hero-button-container .hero-texts-btn2 {
     position: relative;
   }
   main:hover {
-    background: url("../../images/hero-img.png") center/cover no-repeat;
+    background: url("../../images/hero-img.jpg") center/cover no-repeat;
     min-height: 100vh;
     width: 100%;
     position: relative;
@@ -2454,7 +2461,7 @@ main .hero-texts .hero-button-container .hero-texts-btn2 {
   .procedures-container .rituals-image {
     height: 55vh;
     width: 90%;
-    background: url("../../images/rituals image.png") center/cover no-repeat;
+    background: url("../../images/rituals image.jpg") center/cover no-repeat;
   }
   .procedures-container .rituals-image-container2 {
     width: 90%;

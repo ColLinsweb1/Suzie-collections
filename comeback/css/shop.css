@@ -415,7 +415,7 @@ header .icon-header a {
           justify-content: start;
   gap: 10px;
 }
-.recently-added-container .recently-added-colors .color-1, .recently-added-container .recently-added-container5 .recently-added-colors .color-12, .recently-added-container5 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container5 .recently-added-colors .color-11, .recently-added-container5 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container5 .recently-added-colors .color-10, .recently-added-container5 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container4 .recently-added-colors .color-12, .recently-added-container4 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container4 .recently-added-colors .color-11, .recently-added-container4 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container4 .recently-added-colors .color-10, .recently-added-container4 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container .recently-added-colors .color-9, .recently-added-container .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container .recently-added-colors .color-8, .recently-added-container .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container .recently-added-colors .color-7, .recently-added-container .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container .recently-added-colors .color-6, .recently-added-container .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container .recently-added-colors .color-5, .recently-added-container .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container .recently-added-colors .color-4, .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-colors .color-2 {
+.recently-added-container .recently-added-colors .color-1, .recently-added-container .recently-added-container15 .recently-added-colors .color-12, .recently-added-container15 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container15 .recently-added-colors .color-11, .recently-added-container15 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container15 .recently-added-colors .color-10, .recently-added-container15 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container14 .recently-added-colors .color-12, .recently-added-container14 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container14 .recently-added-colors .color-11, .recently-added-container14 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container14 .recently-added-colors .color-10, .recently-added-container14 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container13 .recently-added-colors .color-12, .recently-added-container13 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container13 .recently-added-colors .color-11, .recently-added-container13 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container13 .recently-added-colors .color-10, .recently-added-container13 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container12 .recently-added-colors .color-12, .recently-added-container12 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container12 .recently-added-colors .color-11, .recently-added-container12 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container12 .recently-added-colors .color-10, .recently-added-container12 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container11 .recently-added-colors .color-12, .recently-added-container11 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container11 .recently-added-colors .color-11, .recently-added-container11 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container11 .recently-added-colors .color-10, .recently-added-container11 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container10 .recently-added-colors .color-12, .recently-added-container10 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container10 .recently-added-colors .color-11, .recently-added-container10 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container10 .recently-added-colors .color-10, .recently-added-container10 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container9 .recently-added-colors .color-12, .recently-added-container9 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container9 .recently-added-colors .color-11, .recently-added-container9 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container9 .recently-added-colors .color-10, .recently-added-container9 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container8 .recently-added-colors .color-12, .recently-added-container8 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container8 .recently-added-colors .color-11, .recently-added-container8 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container8 .recently-added-colors .color-10, .recently-added-container8 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container7 .recently-added-colors .color-12, .recently-added-container7 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container7 .recently-added-colors .color-11, .recently-added-container7 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container7 .recently-added-colors .color-10, .recently-added-container7 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container6 .recently-added-colors .color-12, .recently-added-container6 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container6 .recently-added-colors .color-11, .recently-added-container6 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container6 .recently-added-colors .color-10, .recently-added-container6 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container5 .recently-added-colors .color-12, .recently-added-container5 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container5 .recently-added-colors .color-11, .recently-added-container5 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container5 .recently-added-colors .color-10, .recently-added-container5 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container4 .recently-added-colors .color-12, .recently-added-container4 .recently-added-container .recently-added-colors .color-12, .recently-added-container .recently-added-container4 .recently-added-colors .color-11, .recently-added-container4 .recently-added-container .recently-added-colors .color-11, .recently-added-container .recently-added-container4 .recently-added-colors .color-10, .recently-added-container4 .recently-added-container .recently-added-colors .color-10, .recently-added-container .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container .recently-added-colors .color-9, .recently-added-container .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container .recently-added-colors .color-8, .recently-added-container .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container .recently-added-colors .color-7, .recently-added-container .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container .recently-added-colors .color-6, .recently-added-container .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container .recently-added-colors .color-5, .recently-added-container .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container .recently-added-colors .color-4, .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-colors .color-2 {
   width: 10px;
   height: 10px;
   background: rgb(36, 36, 36);
@@ -579,7 +579,7 @@ header .icon-header a {
           justify-content: start;
   gap: 10px;
 }
-.recently-added-container2 .recently-added-colors .color-1, .recently-added-container2 .recently-added-container5 .recently-added-colors .color-12, .recently-added-container5 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container5 .recently-added-colors .color-11, .recently-added-container5 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container5 .recently-added-colors .color-10, .recently-added-container5 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container4 .recently-added-colors .color-12, .recently-added-container4 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container4 .recently-added-colors .color-11, .recently-added-container4 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container4 .recently-added-colors .color-10, .recently-added-container4 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-9, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-8, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-7, .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container2 .recently-added-colors .color-2, .recently-added-container2 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container2 .recently-added-colors .color-3 {
+.recently-added-container2 .recently-added-colors .color-1, .recently-added-container2 .recently-added-container15 .recently-added-colors .color-12, .recently-added-container15 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container15 .recently-added-colors .color-11, .recently-added-container15 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container15 .recently-added-colors .color-10, .recently-added-container15 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container14 .recently-added-colors .color-12, .recently-added-container14 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container14 .recently-added-colors .color-11, .recently-added-container14 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container14 .recently-added-colors .color-10, .recently-added-container14 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container13 .recently-added-colors .color-12, .recently-added-container13 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container13 .recently-added-colors .color-11, .recently-added-container13 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container13 .recently-added-colors .color-10, .recently-added-container13 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container12 .recently-added-colors .color-12, .recently-added-container12 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container12 .recently-added-colors .color-11, .recently-added-container12 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container12 .recently-added-colors .color-10, .recently-added-container12 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container11 .recently-added-colors .color-12, .recently-added-container11 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container11 .recently-added-colors .color-11, .recently-added-container11 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container11 .recently-added-colors .color-10, .recently-added-container11 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container10 .recently-added-colors .color-12, .recently-added-container10 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container10 .recently-added-colors .color-11, .recently-added-container10 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container10 .recently-added-colors .color-10, .recently-added-container10 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container9 .recently-added-colors .color-12, .recently-added-container9 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container9 .recently-added-colors .color-11, .recently-added-container9 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container9 .recently-added-colors .color-10, .recently-added-container9 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container8 .recently-added-colors .color-12, .recently-added-container8 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container8 .recently-added-colors .color-11, .recently-added-container8 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container8 .recently-added-colors .color-10, .recently-added-container8 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container7 .recently-added-colors .color-12, .recently-added-container7 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container7 .recently-added-colors .color-11, .recently-added-container7 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container7 .recently-added-colors .color-10, .recently-added-container7 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container6 .recently-added-colors .color-12, .recently-added-container6 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container6 .recently-added-colors .color-11, .recently-added-container6 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container6 .recently-added-colors .color-10, .recently-added-container6 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container5 .recently-added-colors .color-12, .recently-added-container5 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container5 .recently-added-colors .color-11, .recently-added-container5 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container5 .recently-added-colors .color-10, .recently-added-container5 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container4 .recently-added-colors .color-12, .recently-added-container4 .recently-added-container2 .recently-added-colors .color-12, .recently-added-container2 .recently-added-container4 .recently-added-colors .color-11, .recently-added-container4 .recently-added-container2 .recently-added-colors .color-11, .recently-added-container2 .recently-added-container4 .recently-added-colors .color-10, .recently-added-container4 .recently-added-container2 .recently-added-colors .color-10, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-9, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-8, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-7, .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container2 .recently-added-colors .color-2, .recently-added-container2 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container2 .recently-added-colors .color-3 {
   width: 10px;
   height: 10px;
   background: rgb(36, 36, 36);
@@ -746,7 +746,7 @@ header .icon-header a {
           justify-content: start;
   gap: 10px;
 }
-.recently-added-container3 .recently-added-colors .color-1, .recently-added-container3 .recently-added-container5 .recently-added-colors .color-12, .recently-added-container5 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container5 .recently-added-colors .color-11, .recently-added-container5 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container5 .recently-added-colors .color-10, .recently-added-container5 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container4 .recently-added-colors .color-12, .recently-added-container4 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container4 .recently-added-colors .color-11, .recently-added-container4 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container4 .recently-added-colors .color-10, .recently-added-container4 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container3 .recently-added-colors .color-2, .recently-added-container3 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container3 .recently-added-colors .color-3, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-4, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-5, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-6 {
+.recently-added-container3 .recently-added-colors .color-1, .recently-added-container3 .recently-added-container15 .recently-added-colors .color-12, .recently-added-container15 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container15 .recently-added-colors .color-11, .recently-added-container15 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container15 .recently-added-colors .color-10, .recently-added-container15 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container14 .recently-added-colors .color-12, .recently-added-container14 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container14 .recently-added-colors .color-11, .recently-added-container14 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container14 .recently-added-colors .color-10, .recently-added-container14 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container13 .recently-added-colors .color-12, .recently-added-container13 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container13 .recently-added-colors .color-11, .recently-added-container13 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container13 .recently-added-colors .color-10, .recently-added-container13 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container12 .recently-added-colors .color-12, .recently-added-container12 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container12 .recently-added-colors .color-11, .recently-added-container12 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container12 .recently-added-colors .color-10, .recently-added-container12 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container11 .recently-added-colors .color-12, .recently-added-container11 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container11 .recently-added-colors .color-11, .recently-added-container11 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container11 .recently-added-colors .color-10, .recently-added-container11 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container10 .recently-added-colors .color-12, .recently-added-container10 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container10 .recently-added-colors .color-11, .recently-added-container10 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container10 .recently-added-colors .color-10, .recently-added-container10 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container9 .recently-added-colors .color-12, .recently-added-container9 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container9 .recently-added-colors .color-11, .recently-added-container9 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container9 .recently-added-colors .color-10, .recently-added-container9 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container8 .recently-added-colors .color-12, .recently-added-container8 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container8 .recently-added-colors .color-11, .recently-added-container8 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container8 .recently-added-colors .color-10, .recently-added-container8 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container7 .recently-added-colors .color-12, .recently-added-container7 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container7 .recently-added-colors .color-11, .recently-added-container7 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container7 .recently-added-colors .color-10, .recently-added-container7 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container6 .recently-added-colors .color-12, .recently-added-container6 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container6 .recently-added-colors .color-11, .recently-added-container6 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container6 .recently-added-colors .color-10, .recently-added-container6 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container5 .recently-added-colors .color-12, .recently-added-container5 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container5 .recently-added-colors .color-11, .recently-added-container5 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container5 .recently-added-colors .color-10, .recently-added-container5 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-container4 .recently-added-colors .color-12, .recently-added-container4 .recently-added-container3 .recently-added-colors .color-12, .recently-added-container3 .recently-added-container4 .recently-added-colors .color-11, .recently-added-container4 .recently-added-container3 .recently-added-colors .color-11, .recently-added-container3 .recently-added-container4 .recently-added-colors .color-10, .recently-added-container4 .recently-added-container3 .recently-added-colors .color-10, .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container3 .recently-added-colors .color-2, .recently-added-container3 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container3 .recently-added-colors .color-3, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-4, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-5, .recently-added-container3 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container3 .recently-added-colors .color-6 {
   width: 10px;
   height: 10px;
   background: rgb(36, 36, 36);
@@ -1189,6 +1189,1843 @@ header .icon-header a {
   opacity: 1;
 }
 
+.recently-added-container6 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container6 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container6 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container6 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container6 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container6 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container6 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container6 .recently-added-colors .color-1, .recently-added-container6 .recently-added-colors .color-12, .recently-added-container6 .recently-added-colors .color-11, .recently-added-container6 .recently-added-colors .color-10, .recently-added-container6 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container6 .recently-added-colors .color-2, .recently-added-container6 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container6 .recently-added-colors .color-3, .recently-added-container6 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container6 .recently-added-colors .color-4, .recently-added-container6 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container6 .recently-added-colors .color-5, .recently-added-container6 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container6 .recently-added-colors .color-6, .recently-added-container6 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container6 .recently-added-colors .color-7, .recently-added-container6 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container6 .recently-added-colors .color-8, .recently-added-container6 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container6 .recently-added-colors .color-9 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container6 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container6 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container6 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container6 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container6 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container6 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container6 .recently-added-card-6 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container6 .recently-added-card-6:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container6 .recently-added-wrapper-6 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container6 .recently-added-image-6 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 6.jpg") center/cover no-repeat;
+}
+.recently-added-container6 .recently-added-card-6:hover .recently-added-image-6 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container6 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container6 .recently-added-card-6:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container6 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container6 .recently-added-card-6:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container7 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container7 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container7 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container7 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container7 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container7 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container7 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container7 .recently-added-colors .color-1, .recently-added-container7 .recently-added-colors .color-12, .recently-added-container7 .recently-added-colors .color-11, .recently-added-container7 .recently-added-colors .color-10, .recently-added-container7 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container7 .recently-added-colors .color-2, .recently-added-container7 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container7 .recently-added-colors .color-3, .recently-added-container7 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container7 .recently-added-colors .color-4, .recently-added-container7 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container7 .recently-added-colors .color-5, .recently-added-container7 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container7 .recently-added-colors .color-6, .recently-added-container7 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container7 .recently-added-colors .color-7, .recently-added-container7 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container7 .recently-added-colors .color-8, .recently-added-container7 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container7 .recently-added-colors .color-9 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container7 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container7 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container7 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container7 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container7 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container7 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container7 .recently-added-card-7 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container7 .recently-added-card-7:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container7 .recently-added-wrapper-7 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container7 .recently-added-image-7 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 7.jpg") center/cover no-repeat;
+}
+.recently-added-container7 .recently-added-card-7:hover .recently-added-image-7 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container7 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container7 .recently-added-card-7:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container7 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container7 .recently-added-card-7:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container8 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container8 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container8 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container8 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container8 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container8 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container8 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container8 .recently-added-colors .color-1, .recently-added-container8 .recently-added-colors .color-12, .recently-added-container8 .recently-added-colors .color-11, .recently-added-container8 .recently-added-colors .color-10, .recently-added-container8 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container8 .recently-added-colors .color-2, .recently-added-container8 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container8 .recently-added-colors .color-3, .recently-added-container8 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container8 .recently-added-colors .color-4, .recently-added-container8 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container8 .recently-added-colors .color-5, .recently-added-container8 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container8 .recently-added-colors .color-6, .recently-added-container8 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container8 .recently-added-colors .color-7, .recently-added-container8 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container8 .recently-added-colors .color-8, .recently-added-container8 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container8 .recently-added-colors .color-9 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container8 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container8 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container8 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container8 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container8 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container8 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container8 .recently-added-card-8 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container8 .recently-added-card-8:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container8 .recently-added-wrapper-8 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container8 .recently-added-image-8 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 8.jpg") center/cover no-repeat;
+}
+.recently-added-container8 .recently-added-card-8:hover .recently-added-image-8 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container8 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container8 .recently-added-card-8:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container8 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container8 .recently-added-card-8:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container9 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container9 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container9 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container9 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container9 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container9 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container9 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container9 .recently-added-colors .color-1, .recently-added-container9 .recently-added-colors .color-12, .recently-added-container9 .recently-added-colors .color-11, .recently-added-container9 .recently-added-colors .color-10, .recently-added-container9 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container9 .recently-added-colors .color-2, .recently-added-container9 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container9 .recently-added-colors .color-3, .recently-added-container9 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container9 .recently-added-colors .color-4, .recently-added-container9 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container9 .recently-added-colors .color-5, .recently-added-container9 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container9 .recently-added-colors .color-6, .recently-added-container9 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container9 .recently-added-colors .color-7, .recently-added-container9 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container9 .recently-added-colors .color-8, .recently-added-container9 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container9 .recently-added-colors .color-9 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container9 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container9 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container9 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container9 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container9 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container9 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container9 .recently-added-card-9 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container9 .recently-added-card-9:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container9 .recently-added-wrapper-9 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container9 .recently-added-image-9 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 9.jpg") center/cover no-repeat;
+}
+.recently-added-container9 .recently-added-card-9:hover .recently-added-image-9 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container9 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container9 .recently-added-card-9:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container9 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container9 .recently-added-card-9:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container10 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container10 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container10 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container10 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container10 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container10 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container10 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container10 .recently-added-colors .color-1, .recently-added-container10 .recently-added-colors .color-12, .recently-added-container10 .recently-added-colors .color-11, .recently-added-container10 .recently-added-colors .color-10, .recently-added-container10 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container10 .recently-added-colors .color-2, .recently-added-container10 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container10 .recently-added-colors .color-3, .recently-added-container10 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container10 .recently-added-colors .color-4, .recently-added-container10 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container10 .recently-added-colors .color-5, .recently-added-container10 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container10 .recently-added-colors .color-6, .recently-added-container10 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container10 .recently-added-colors .color-7, .recently-added-container10 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container10 .recently-added-colors .color-8, .recently-added-container10 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container10 .recently-added-colors .color-9 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container10 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container10 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container10 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container10 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container10 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container10 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container10 .recently-added-card-10 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container10 .recently-added-card-10:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container10 .recently-added-wrapper-10 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container10 .recently-added-image-10 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 10.jpg") center/cover no-repeat;
+}
+.recently-added-container10 .recently-added-card-10:hover .recently-added-image-10 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container10 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container10 .recently-added-card-10:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container10 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container10 .recently-added-card-10:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container11 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container11 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container11 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container11 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container11 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container11 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container11 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container11 .recently-added-colors .color-1, .recently-added-container11 .recently-added-colors .color-12, .recently-added-container11 .recently-added-colors .color-11, .recently-added-container11 .recently-added-colors .color-10, .recently-added-container11 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container11 .recently-added-colors .color-2, .recently-added-container11 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container11 .recently-added-colors .color-3, .recently-added-container11 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container11 .recently-added-colors .color-4, .recently-added-container11 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container11 .recently-added-colors .color-5, .recently-added-container11 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container11 .recently-added-colors .color-6, .recently-added-container11 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container11 .recently-added-colors .color-7, .recently-added-container11 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container11 .recently-added-colors .color-8, .recently-added-container11 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container11 .recently-added-colors .color-9 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container11 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container11 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container11 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container11 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container11 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container11 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container11 .recently-added-card-11 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container11 .recently-added-card-11:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container11 .recently-added-wrapper-11 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container11 .recently-added-image-11 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 11.jpg") center/cover no-repeat;
+}
+.recently-added-container11 .recently-added-card-11:hover .recently-added-image-11 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container11 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container11 .recently-added-card-11:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container11 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container11 .recently-added-card-11:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container12 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container12 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container12 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container12 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container12 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container12 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container12 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container12 .recently-added-colors .color-1, .recently-added-container12 .recently-added-colors .color-12, .recently-added-container12 .recently-added-colors .color-11, .recently-added-container12 .recently-added-colors .color-10, .recently-added-container12 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container12 .recently-added-colors .color-2, .recently-added-container12 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container12 .recently-added-colors .color-3, .recently-added-container12 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container12 .recently-added-colors .color-4, .recently-added-container12 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container12 .recently-added-colors .color-5, .recently-added-container12 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container12 .recently-added-colors .color-6, .recently-added-container12 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container12 .recently-added-colors .color-7, .recently-added-container12 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container12 .recently-added-colors .color-8, .recently-added-container12 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container12 .recently-added-colors .color-9 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container12 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container12 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container12 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container12 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container12 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container12 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container12 .recently-added-card-12 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container12 .recently-added-card-12:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container12 .recently-added-wrapper-12 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container12 .recently-added-image-12 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 12.jpg") center/cover no-repeat;
+}
+.recently-added-container12 .recently-added-card-12:hover .recently-added-image-12 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container12 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container12 .recently-added-card-12:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container12 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container12 .recently-added-card-12:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container13 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container13 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container13 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container13 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container13 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container13 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container13 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container13 .recently-added-colors .color-1, .recently-added-container13 .recently-added-colors .color-12, .recently-added-container13 .recently-added-colors .color-11, .recently-added-container13 .recently-added-colors .color-10, .recently-added-container13 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container13 .recently-added-colors .color-2, .recently-added-container13 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container13 .recently-added-colors .color-3, .recently-added-container13 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container13 .recently-added-colors .color-4, .recently-added-container13 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container13 .recently-added-colors .color-5, .recently-added-container13 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container13 .recently-added-colors .color-6, .recently-added-container13 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container13 .recently-added-colors .color-7, .recently-added-container13 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container13 .recently-added-colors .color-8, .recently-added-container13 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container13 .recently-added-colors .color-9 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container13 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container13 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container13 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container13 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container13 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container13 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container13 .recently-added-card-13 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container13 .recently-added-card-13:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container13 .recently-added-wrapper-13 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container13 .recently-added-image-13 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 13.jpg") center/cover no-repeat;
+}
+.recently-added-container13 .recently-added-card-12:hover .recently-added-image-13 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container13 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container13 .recently-added-card-13:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container13 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container13 .recently-added-card-13:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container14 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container14 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container14 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container14 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container14 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container14 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container14 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container14 .recently-added-colors .color-1, .recently-added-container14 .recently-added-colors .color-12, .recently-added-container14 .recently-added-colors .color-11, .recently-added-container14 .recently-added-colors .color-10, .recently-added-container14 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container14 .recently-added-colors .color-2, .recently-added-container14 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container14 .recently-added-colors .color-3, .recently-added-container14 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container14 .recently-added-colors .color-4, .recently-added-container14 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container14 .recently-added-colors .color-5, .recently-added-container14 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container14 .recently-added-colors .color-6, .recently-added-container14 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container14 .recently-added-colors .color-7, .recently-added-container14 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container14 .recently-added-colors .color-8, .recently-added-container14 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container14 .recently-added-colors .color-9 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container14 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container14 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container14 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container14 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container14 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container14 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container14 .recently-added-card-14 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container14 .recently-added-card-14:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container14 .recently-added-wrapper-14 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container14 .recently-added-image-14 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 14.jpg") center/cover no-repeat;
+}
+.recently-added-container14 .recently-added-card-14:hover .recently-added-image-14 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container14 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container14 .recently-added-card-14:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container14 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container14 .recently-added-card-14:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container14 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container14 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container14 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container14 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container14 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container14 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container14 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container14 .recently-added-colors .color-1, .recently-added-container14 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container14 .recently-added-colors .color-2, .recently-added-container14 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container14 .recently-added-colors .color-3, .recently-added-container14 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container14 .recently-added-colors .color-4, .recently-added-container14 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container14 .recently-added-colors .color-5, .recently-added-container14 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container14 .recently-added-colors .color-6, .recently-added-container14 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container14 .recently-added-colors .color-7, .recently-added-container14 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container14 .recently-added-colors .color-8, .recently-added-container14 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container14 .recently-added-colors .color-9, .recently-added-container14 .recently-added-colors .color-10, .recently-added-container14 .recently-added-colors .color-11, .recently-added-container14 .recently-added-colors .color-12 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container14 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container14 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container14 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container14 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container14 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container14 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container14 .recently-added-card-14 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container14 .recently-added-card-14:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container14 .recently-added-wrapper-14 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container14 .recently-added-image-14 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 14.jpg") center/cover no-repeat;
+}
+.recently-added-container14 .recently-added-card-14:hover .recently-added-image-14 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container14 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container14 .recently-added-card-14:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container14 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container14 .recently-added-card-14:hover .product-title {
+  opacity: 1;
+}
+
+.recently-added-container15 {
+  padding: 40px 0px 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+.recently-added-container15 .recently-added-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  padding-top: 8px;
+}
+.recently-added-container15 .recently-added-product-subtitle {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #896226;
+}
+.recently-added-container15 .recently-added-product-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #242424;
+}
+.recently-added-container15 .recently-added-product-title-description {
+  color: rgb(95, 94, 94);
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.recently-added-container15 .recently-added-price {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(36, 36, 36);
+}
+.recently-added-container15 .recently-added-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 10px;
+}
+.recently-added-container15 .recently-added-colors .color-1, .recently-added-container15 .recently-added-colors .color-12, .recently-added-container15 .recently-added-colors .color-11, .recently-added-container15 .recently-added-colors .color-10, .recently-added-container15 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container15 .recently-added-colors .color-2, .recently-added-container15 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container15 .recently-added-colors .color-3, .recently-added-container15 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container15 .recently-added-colors .color-4, .recently-added-container15 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container15 .recently-added-colors .color-5, .recently-added-container15 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container15 .recently-added-colors .color-6, .recently-added-container15 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container15 .recently-added-colors .color-7, .recently-added-container15 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container15 .recently-added-colors .color-8, .recently-added-container15 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container15 .recently-added-colors .color-9 {
+  width: 10px;
+  height: 10px;
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+}
+.recently-added-container15 .recently-added-colors .color-10 {
+  background: goldenrod;
+}
+.recently-added-container15 .recently-added-colors .color-11 {
+  background: #335d79;
+}
+.recently-added-container15 .recently-added-colors .color-12 {
+  background: rgb(167, 164, 164);
+}
+.recently-added-container15 .recently-added-chat-btn {
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.recently-added-container15 .recently-added-chat-btn a {
+  text-decoration: none;
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+.recently-added-container15 .recently-added-chat-btn:hover {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.recently-added-container15 .recently-added-card-15 {
+  overflow: hidden;
+  width: 50%;
+  min-width: 280px;
+  height: 60vh;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.recently-added-container15 .recently-added-card-15:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+.recently-added-container15 .recently-added-wrapper-15 {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.recently-added-container15 .recently-added-image-15 {
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  background: url("../../images/recently added 15.jpg") center/cover no-repeat;
+}
+.recently-added-container15 .recently-added-card-15:hover .recently-added-image-15 {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.recently-added-container15 .text-overlay {
+  inset: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+}
+.recently-added-container15 .recently-added-card-15:hover .text-overlay {
+  opacity: 1;
+}
+.recently-added-container15 .product-title {
+  color: rgb(95, 94, 94);
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.recently-added-container15 .recently-added-card-15:hover .product-title {
+  opacity: 1;
+}
+
 .email-subscription-container {
   background: linear-gradient(135deg, #1C1917 0%, #5a4628 100%);
   width: 100%;
@@ -1456,6 +3293,186 @@ header .icon-header a {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
+#menu {
+  width: 85%;
+}
+
+.offcanvas {
+  background: rgba(250, 247, 242, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-box-shadow: 0 24px 60px rgba(28, 25, 23, 0.16);
+          box-shadow: 0 24px 60px rgba(28, 25, 23, 0.16);
+  border-right: 1px solid rgba(28, 25, 23, 0.08);
+  width: 80vw;
+}
+.offcanvas .offcanvas-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px 22px 16px;
+  border-bottom: 1px solid rgba(28, 25, 23, 0.08);
+}
+.offcanvas .offcanvas-header .offcanvas-title {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  text-decoration: none;
+  background: linear-gradient(135deg, #1C1917 0%, #5a4628 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.offcanvas .offcanvas-header .offcanvas-title a {
+  text-decoration: none;
+  background: linear-gradient(135deg, #1C1917 0%, #5a4628 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+.offcanvas .offcanvas-header .offcanvas-close {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(28, 25, 23, 0.06);
+  display: grid;
+  place-items: center;
+  color: rgb(36, 36, 36);
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.offcanvas .offcanvas-header .offcanvas-close:hover {
+  background: rgba(28, 25, 23, 0.12);
+  -webkit-transform: translateX(-2px);
+          transform: translateX(-2px);
+}
+.offcanvas .offcanvas-header .offcanvas-close i {
+  color: rgb(36, 36, 36);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.offcanvas .offcanvas-header .offcanvas-close i:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.offcanvas .offcanvas-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  padding: 20px 16px 24px;
+}
+.offcanvas .offcanvas-body .nav-1 {
+  font-family: Fraunces, ui-serif, Georgia, serif;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.offcanvas .offcanvas-body .nav-1:hover {
+  background: rgba(205, 202, 202, 0.7);
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
+}
+.offcanvas .offcanvas-body .nav-1 a {
+  color: rgb(36, 36, 36);
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.8rem 0.7rem;
+}
+.offcanvas .offcanvas-body .nav-1 i {
+  color: rgb(105, 104, 104);
+  font-size: 1rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.offcanvas .offcanvas-body .nav-1 .verified-pulse {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #22c55e;
+  position: relative;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: inline-block;
+  margin-left: auto;
+}
+.offcanvas .offcanvas-body .nav-1 .verified-pulse::before,
+.offcanvas .offcanvas-body .nav-1 .verified-pulse::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid rgba(34, 197, 94, 0.5);
+  -webkit-animation: radarPulse 2s infinite;
+          animation: radarPulse 2s infinite;
+}
+.offcanvas .offcanvas-body .nav-1 .verified-pulse::after {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+@-webkit-keyframes radarPulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.8;
+  }
+  70% {
+    -webkit-transform: scale(3);
+            transform: scale(3);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(3);
+            transform: scale(3);
+    opacity: 0;
+  }
+}
+@keyframes radarPulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.8;
+  }
+  70% {
+    -webkit-transform: scale(3);
+            transform: scale(3);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(3);
+            transform: scale(3);
+    opacity: 0;
+  }
+}
+
+#line-demacator {
+  width: 100%;
+  height: 0.5px;
+  background: rgba(28, 25, 23, 0.2);
+  margin: 5px 0px 10px 0px;
+}
+
 @media (max-width: 780px) {
   .footer {
     padding: 48px 24px 24px;
@@ -1481,5 +3498,382 @@ header .icon-header a {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+  }
+}
+@media (max-width: 480px) {
+  .pre-header p {
+    display: none;
+  }
+  .pre-header div {
+    color: rgb(204, 201, 201);
+    font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 11px;
+    background: linear-gradient(135deg, #1C1917 0%, #5a4628 100%);
+    top: 0;
+    padding: 12px 0px;
+    font-weight: 700;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: block;
+  }
+  .header {
+    padding: 5px 0px;
+  }
+  .header .menu-bar,
+  .header .icon-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .icon-header {
+    gap: 16px;
+  }
+  .header .icon-header a {
+    display: block;
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+  }
+  .header .logo,
+  .header ul {
+    display: none;
+  }
+  .header #menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .shop-heading-container {
+    padding: 80px 0px 0px 25px;
+  }
+  .shop-heading-container .shop-heading {
+    font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+    letter-spacing: 0.19rem;
+    color: #67605B;
+    font-weight: 500;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .shop-heading-container .shop-heading2 {
+    color: #1C1917;
+    font-family: Fraunces, ui-serif, Georgia, serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 1.1;
+  }
+  .shop-heading-container .shop-heading3 {
+    color: #67605B;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 5px;
+    font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+    line-height: 1.7;
+  }
+  .shop-heading-container .line-demacator {
+    width: 93%;
+    height: 0.5px;
+    background: rgba(28, 25, 23, 0.2);
+    margin: 35px 0px 35px 0px;
+  }
+  .sidebar-container {
+    display: none;
+  }
+  .recently-added-container,
+  .recently-added-container2,
+  .recently-added-container3,
+  .recently-added-container4,
+  .recently-added-container5,
+  .recently-added-container6,
+  .recently-added-container7,
+  .recently-added-container8,
+  .recently-added-container9,
+  .recently-added-container10,
+  .recently-added-container11,
+  .recently-added-container12,
+  .recently-added-container13,
+  .recently-added-container14,
+  .recently-added-container15 {
+    padding: 40px 0px 0px 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 20px;
+  }
+  .recently-added-container .recently-added-card, .recently-added-container .recently-added-container2 .recently-added-card-2, .recently-added-container2 .recently-added-container .recently-added-card-2,
+  .recently-added-container .recently-added-card-2,
+  .recently-added-container .recently-added-card-3,
+  .recently-added-container .recently-added-card-4,
+  .recently-added-container .recently-added-card-5,
+  .recently-added-container .recently-added-card-6,
+  .recently-added-container .recently-added-card-7,
+  .recently-added-container .recently-added-card-8,
+  .recently-added-container .recently-added-card-9,
+  .recently-added-container .recently-added-card-10,
+  .recently-added-container .recently-added-card-11,
+  .recently-added-container .recently-added-card-12,
+  .recently-added-container .recently-added-card-13,
+  .recently-added-container .recently-added-card-14,
+  .recently-added-container .recently-added-card-15,
+  .recently-added-container2 .recently-added-card,
+  .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-card-3,
+  .recently-added-container2 .recently-added-card-4,
+  .recently-added-container2 .recently-added-card-5,
+  .recently-added-container2 .recently-added-card-6,
+  .recently-added-container2 .recently-added-card-7,
+  .recently-added-container2 .recently-added-card-8,
+  .recently-added-container2 .recently-added-card-9,
+  .recently-added-container2 .recently-added-card-10,
+  .recently-added-container2 .recently-added-card-11,
+  .recently-added-container2 .recently-added-card-12,
+  .recently-added-container2 .recently-added-card-13,
+  .recently-added-container2 .recently-added-card-14,
+  .recently-added-container2 .recently-added-card-15,
+  .recently-added-container3 .recently-added-card,
+  .recently-added-container3 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container3 .recently-added-card-2,
+  .recently-added-container3 .recently-added-card-2,
+  .recently-added-container3 .recently-added-card-3,
+  .recently-added-container3 .recently-added-card-4,
+  .recently-added-container3 .recently-added-card-5,
+  .recently-added-container3 .recently-added-card-6,
+  .recently-added-container3 .recently-added-card-7,
+  .recently-added-container3 .recently-added-card-8,
+  .recently-added-container3 .recently-added-card-9,
+  .recently-added-container3 .recently-added-card-10,
+  .recently-added-container3 .recently-added-card-11,
+  .recently-added-container3 .recently-added-card-12,
+  .recently-added-container3 .recently-added-card-13,
+  .recently-added-container3 .recently-added-card-14,
+  .recently-added-container3 .recently-added-card-15,
+  .recently-added-container4 .recently-added-card,
+  .recently-added-container4 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container4 .recently-added-card-2,
+  .recently-added-container4 .recently-added-card-2,
+  .recently-added-container4 .recently-added-card-3,
+  .recently-added-container4 .recently-added-card-4,
+  .recently-added-container4 .recently-added-card-5,
+  .recently-added-container4 .recently-added-card-6,
+  .recently-added-container4 .recently-added-card-7,
+  .recently-added-container4 .recently-added-card-8,
+  .recently-added-container4 .recently-added-card-9,
+  .recently-added-container4 .recently-added-card-10,
+  .recently-added-container4 .recently-added-card-11,
+  .recently-added-container4 .recently-added-card-12,
+  .recently-added-container4 .recently-added-card-13,
+  .recently-added-container4 .recently-added-card-14,
+  .recently-added-container4 .recently-added-card-15,
+  .recently-added-container5 .recently-added-card,
+  .recently-added-container5 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container5 .recently-added-card-2,
+  .recently-added-container5 .recently-added-card-2,
+  .recently-added-container5 .recently-added-card-3,
+  .recently-added-container5 .recently-added-card-4,
+  .recently-added-container5 .recently-added-card-5,
+  .recently-added-container5 .recently-added-card-6,
+  .recently-added-container5 .recently-added-card-7,
+  .recently-added-container5 .recently-added-card-8,
+  .recently-added-container5 .recently-added-card-9,
+  .recently-added-container5 .recently-added-card-10,
+  .recently-added-container5 .recently-added-card-11,
+  .recently-added-container5 .recently-added-card-12,
+  .recently-added-container5 .recently-added-card-13,
+  .recently-added-container5 .recently-added-card-14,
+  .recently-added-container5 .recently-added-card-15,
+  .recently-added-container6 .recently-added-card,
+  .recently-added-container6 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container6 .recently-added-card-2,
+  .recently-added-container6 .recently-added-card-2,
+  .recently-added-container6 .recently-added-card-3,
+  .recently-added-container6 .recently-added-card-4,
+  .recently-added-container6 .recently-added-card-5,
+  .recently-added-container6 .recently-added-card-6,
+  .recently-added-container6 .recently-added-card-7,
+  .recently-added-container6 .recently-added-card-8,
+  .recently-added-container6 .recently-added-card-9,
+  .recently-added-container6 .recently-added-card-10,
+  .recently-added-container6 .recently-added-card-11,
+  .recently-added-container6 .recently-added-card-12,
+  .recently-added-container6 .recently-added-card-13,
+  .recently-added-container6 .recently-added-card-14,
+  .recently-added-container6 .recently-added-card-15,
+  .recently-added-container7 .recently-added-card,
+  .recently-added-container7 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container7 .recently-added-card-2,
+  .recently-added-container7 .recently-added-card-2,
+  .recently-added-container7 .recently-added-card-3,
+  .recently-added-container7 .recently-added-card-4,
+  .recently-added-container7 .recently-added-card-5,
+  .recently-added-container7 .recently-added-card-6,
+  .recently-added-container7 .recently-added-card-7,
+  .recently-added-container7 .recently-added-card-8,
+  .recently-added-container7 .recently-added-card-9,
+  .recently-added-container7 .recently-added-card-10,
+  .recently-added-container7 .recently-added-card-11,
+  .recently-added-container7 .recently-added-card-12,
+  .recently-added-container7 .recently-added-card-13,
+  .recently-added-container7 .recently-added-card-14,
+  .recently-added-container7 .recently-added-card-15,
+  .recently-added-container8 .recently-added-card,
+  .recently-added-container8 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container8 .recently-added-card-2,
+  .recently-added-container8 .recently-added-card-2,
+  .recently-added-container8 .recently-added-card-3,
+  .recently-added-container8 .recently-added-card-4,
+  .recently-added-container8 .recently-added-card-5,
+  .recently-added-container8 .recently-added-card-6,
+  .recently-added-container8 .recently-added-card-7,
+  .recently-added-container8 .recently-added-card-8,
+  .recently-added-container8 .recently-added-card-9,
+  .recently-added-container8 .recently-added-card-10,
+  .recently-added-container8 .recently-added-card-11,
+  .recently-added-container8 .recently-added-card-12,
+  .recently-added-container8 .recently-added-card-13,
+  .recently-added-container8 .recently-added-card-14,
+  .recently-added-container8 .recently-added-card-15,
+  .recently-added-container9 .recently-added-card,
+  .recently-added-container9 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container9 .recently-added-card-2,
+  .recently-added-container9 .recently-added-card-2,
+  .recently-added-container9 .recently-added-card-3,
+  .recently-added-container9 .recently-added-card-4,
+  .recently-added-container9 .recently-added-card-5,
+  .recently-added-container9 .recently-added-card-6,
+  .recently-added-container9 .recently-added-card-7,
+  .recently-added-container9 .recently-added-card-8,
+  .recently-added-container9 .recently-added-card-9,
+  .recently-added-container9 .recently-added-card-10,
+  .recently-added-container9 .recently-added-card-11,
+  .recently-added-container9 .recently-added-card-12,
+  .recently-added-container9 .recently-added-card-13,
+  .recently-added-container9 .recently-added-card-14,
+  .recently-added-container9 .recently-added-card-15,
+  .recently-added-container10 .recently-added-card,
+  .recently-added-container10 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container10 .recently-added-card-2,
+  .recently-added-container10 .recently-added-card-2,
+  .recently-added-container10 .recently-added-card-3,
+  .recently-added-container10 .recently-added-card-4,
+  .recently-added-container10 .recently-added-card-5,
+  .recently-added-container10 .recently-added-card-6,
+  .recently-added-container10 .recently-added-card-7,
+  .recently-added-container10 .recently-added-card-8,
+  .recently-added-container10 .recently-added-card-9,
+  .recently-added-container10 .recently-added-card-10,
+  .recently-added-container10 .recently-added-card-11,
+  .recently-added-container10 .recently-added-card-12,
+  .recently-added-container10 .recently-added-card-13,
+  .recently-added-container10 .recently-added-card-14,
+  .recently-added-container10 .recently-added-card-15,
+  .recently-added-container11 .recently-added-card,
+  .recently-added-container11 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container11 .recently-added-card-2,
+  .recently-added-container11 .recently-added-card-2,
+  .recently-added-container11 .recently-added-card-3,
+  .recently-added-container11 .recently-added-card-4,
+  .recently-added-container11 .recently-added-card-5,
+  .recently-added-container11 .recently-added-card-6,
+  .recently-added-container11 .recently-added-card-7,
+  .recently-added-container11 .recently-added-card-8,
+  .recently-added-container11 .recently-added-card-9,
+  .recently-added-container11 .recently-added-card-10,
+  .recently-added-container11 .recently-added-card-11,
+  .recently-added-container11 .recently-added-card-12,
+  .recently-added-container11 .recently-added-card-13,
+  .recently-added-container11 .recently-added-card-14,
+  .recently-added-container11 .recently-added-card-15,
+  .recently-added-container12 .recently-added-card,
+  .recently-added-container12 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container12 .recently-added-card-2,
+  .recently-added-container12 .recently-added-card-2,
+  .recently-added-container12 .recently-added-card-3,
+  .recently-added-container12 .recently-added-card-4,
+  .recently-added-container12 .recently-added-card-5,
+  .recently-added-container12 .recently-added-card-6,
+  .recently-added-container12 .recently-added-card-7,
+  .recently-added-container12 .recently-added-card-8,
+  .recently-added-container12 .recently-added-card-9,
+  .recently-added-container12 .recently-added-card-10,
+  .recently-added-container12 .recently-added-card-11,
+  .recently-added-container12 .recently-added-card-12,
+  .recently-added-container12 .recently-added-card-13,
+  .recently-added-container12 .recently-added-card-14,
+  .recently-added-container12 .recently-added-card-15,
+  .recently-added-container13 .recently-added-card,
+  .recently-added-container13 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container13 .recently-added-card-2,
+  .recently-added-container13 .recently-added-card-2,
+  .recently-added-container13 .recently-added-card-3,
+  .recently-added-container13 .recently-added-card-4,
+  .recently-added-container13 .recently-added-card-5,
+  .recently-added-container13 .recently-added-card-6,
+  .recently-added-container13 .recently-added-card-7,
+  .recently-added-container13 .recently-added-card-8,
+  .recently-added-container13 .recently-added-card-9,
+  .recently-added-container13 .recently-added-card-10,
+  .recently-added-container13 .recently-added-card-11,
+  .recently-added-container13 .recently-added-card-12,
+  .recently-added-container13 .recently-added-card-13,
+  .recently-added-container13 .recently-added-card-14,
+  .recently-added-container13 .recently-added-card-15,
+  .recently-added-container14 .recently-added-card,
+  .recently-added-container14 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container14 .recently-added-card-2,
+  .recently-added-container14 .recently-added-card-2,
+  .recently-added-container14 .recently-added-card-3,
+  .recently-added-container14 .recently-added-card-4,
+  .recently-added-container14 .recently-added-card-5,
+  .recently-added-container14 .recently-added-card-6,
+  .recently-added-container14 .recently-added-card-7,
+  .recently-added-container14 .recently-added-card-8,
+  .recently-added-container14 .recently-added-card-9,
+  .recently-added-container14 .recently-added-card-10,
+  .recently-added-container14 .recently-added-card-11,
+  .recently-added-container14 .recently-added-card-12,
+  .recently-added-container14 .recently-added-card-13,
+  .recently-added-container14 .recently-added-card-14,
+  .recently-added-container14 .recently-added-card-15,
+  .recently-added-container15 .recently-added-card,
+  .recently-added-container15 .recently-added-container2 .recently-added-card-2,
+  .recently-added-container2 .recently-added-container15 .recently-added-card-2,
+  .recently-added-container15 .recently-added-card-2,
+  .recently-added-container15 .recently-added-card-3,
+  .recently-added-container15 .recently-added-card-4,
+  .recently-added-container15 .recently-added-card-5,
+  .recently-added-container15 .recently-added-card-6,
+  .recently-added-container15 .recently-added-card-7,
+  .recently-added-container15 .recently-added-card-8,
+  .recently-added-container15 .recently-added-card-9,
+  .recently-added-container15 .recently-added-card-10,
+  .recently-added-container15 .recently-added-card-11,
+  .recently-added-container15 .recently-added-card-12,
+  .recently-added-container15 .recently-added-card-13,
+  .recently-added-container15 .recently-added-card-14,
+  .recently-added-container15 .recently-added-card-15 {
+    overflow: hidden;
+    width: 93%;
+    height: 50vh;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.4s ease;
+    transition: -webkit-transform 0.4s ease;
+    transition: transform 0.4s ease;
+    transition: transform 0.4s ease, -webkit-transform 0.4s ease;
   }
 }/*# sourceMappingURL=shop.css.map */

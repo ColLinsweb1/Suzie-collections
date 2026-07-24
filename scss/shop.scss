@@ -1252,6 +1252,1031 @@ header {
 }
 
 
+.recently-added-container6 {
+    padding: 40px 0px 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+
+    .recently-added-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 220px;
+        padding-top: 8px;
+    }
+
+    .recently-added-product-subtitle {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        color: #896226;
+    }
+
+
+    .recently-added-product-title {
+        font-family: $luxury-font;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #242424;
+
+    }
+
+    .recently-added-product-title-description {
+        color: $text-color;
+        font-family: $luxury-font;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .recently-added-price {
+        font-family: $primary-font;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        color: $black;
+    }
+
+    .recently-added-colors {
+
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+
+        .color-1 {
+            width: 10px;
+            height: 10px;
+            background: $black;
+            border-radius: 50%;
+        }
+
+        .color-10 {
+            @extend .color-1;
+            background: goldenrod;
+        }
+
+        .color-11 {
+            @extend .color-1;
+            background: #335d79;
+        }
+
+        .color-12 {
+            @extend .color-1;
+            background: rgb(167, 164, 164);
+        }
+    }
+
+    .recently-added-chat-btn {
+        margin-top: 10px;
+        transition: all 0.5s ease;
+
+        a {
+            text-decoration: none;
+            font-family: $primary-font;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #95703a 100%);
+            font-size: 11px;
+            letter-spacing: 0.1rem;
+
+        }
+
+        &:hover {
+            transform: translateY(20%)
+        }
+    }
+
+    .recently-added-card-6 {
+        overflow: hidden;
+        width: 50%;
+        min-width: 280px;
+        height: 60vh;
+        position: relative;
+        transition: transform 0.4s ease;
+    }
+
+    .recently-added-card-6:hover {
+        transform: scale(1.03);
+    }
+
+    .recently-added-wrapper-6 {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .recently-added-image-6 {
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        background: url("../../images/recently added 6.jpg") center / cover no-repeat;
+    }
+
+    .recently-added-card-6:hover .recently-added-image-6 {
+        transform: scale(1.08);
+    }
+
+    .text-overlay {
+        inset: 0;
+        position: absolute;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+    }
+
+    .recently-added-card-6:hover .text-overlay {
+        opacity: 1;
+    }
+
+    .product-title {
+        color: $text-color;
+        font-family: $primary-font;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        opacity: 0;
+        background-color: $primary-color;
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+        transition: opacity 0.3s ease;
+    }
+
+    .recently-added-card-6:hover .product-title {
+        opacity: 1;
+    }
+
+}
+
+
+.recently-added-container7 {
+    padding: 40px 0px 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+
+    .recently-added-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 220px;
+        padding-top: 8px;
+    }
+
+    .recently-added-product-subtitle {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        color: #896226;
+    }
+
+
+    .recently-added-product-title {
+        font-family: $luxury-font;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #242424;
+
+    }
+
+    .recently-added-product-title-description {
+        color: $text-color;
+        font-family: $luxury-font;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .recently-added-price {
+        font-family: $primary-font;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        color: $black;
+    }
+
+    .recently-added-colors {
+
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+
+        .color-1 {
+            width: 10px;
+            height: 10px;
+            background: $black;
+            border-radius: 50%;
+        }
+
+        .color-10 {
+            @extend .color-1;
+            background: goldenrod;
+        }
+
+        .color-11 {
+            @extend .color-1;
+            background: #335d79;
+        }
+
+        .color-12 {
+            @extend .color-1;
+            background: rgb(167, 164, 164);
+        }
+    }
+
+    .recently-added-chat-btn {
+        margin-top: 10px;
+        transition: all 0.5s ease;
+
+        a {
+            text-decoration: none;
+            font-family: $primary-font;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #95703a 100%);
+            font-size: 11px;
+            letter-spacing: 0.1rem;
+
+        }
+
+        &:hover {
+            transform: translateY(20%)
+        }
+    }
+
+
+    .recently-added-card-7 {
+        overflow: hidden;
+        width: 50%;
+        min-width: 280px;
+        height: 60vh;
+        position: relative;
+        transition: transform 0.4s ease;
+    }
+
+    .recently-added-card-7:hover {
+        transform: scale(1.03);
+    }
+
+    .recently-added-wrapper-7 {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .recently-added-image-7 {
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        background: url("../../images/recently added 7.jpg") center / cover no-repeat;
+    }
+
+    .recently-added-card-7:hover .recently-added-image-7 {
+        transform: scale(1.08);
+    }
+
+    .text-overlay {
+        inset: 0;
+        position: absolute;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+    }
+
+    .recently-added-card-7:hover .text-overlay {
+        opacity: 1;
+    }
+
+    .product-title {
+        color: $text-color;
+        font-family: $primary-font;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        opacity: 0;
+        background-color: $primary-color;
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+        transition: opacity 0.3s ease;
+    }
+
+    .recently-added-card-7:hover .product-title {
+        opacity: 1;
+    }
+
+}
+
+
+
+
+.recently-added-container8 {
+    padding: 40px 0px 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+
+    .recently-added-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 220px;
+        padding-top: 8px;
+    }
+
+    .recently-added-product-subtitle {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        color: #896226;
+    }
+
+
+    .recently-added-product-title {
+        font-family: $luxury-font;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #242424;
+
+    }
+
+    .recently-added-product-title-description {
+        color: $text-color;
+        font-family: $luxury-font;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .recently-added-price {
+        font-family: $primary-font;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        color: $black;
+    }
+
+    .recently-added-colors {
+
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+
+        .color-1 {
+            width: 10px;
+            height: 10px;
+            background: $black;
+            border-radius: 50%;
+        }
+
+        .color-10 {
+            @extend .color-1;
+            background: goldenrod;
+        }
+
+        .color-11 {
+            @extend .color-1;
+            background: #335d79;
+        }
+
+        .color-12 {
+            @extend .color-1;
+            background: rgb(167, 164, 164);
+        }
+    }
+
+    .recently-added-chat-btn {
+        margin-top: 10px;
+        transition: all 0.5s ease;
+
+        a {
+            text-decoration: none;
+            font-family: $primary-font;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #95703a 100%);
+            font-size: 11px;
+            letter-spacing: 0.1rem;
+
+        }
+
+        &:hover {
+            transform: translateY(20%)
+        }
+    }
+
+    .recently-added-card-8 {
+        overflow: hidden;
+        width: 50%;
+        min-width: 280px;
+        height: 60vh;
+        position: relative;
+        transition: transform 0.4s ease;
+    }
+
+    .recently-added-card-8:hover {
+        transform: scale(1.03);
+    }
+
+    .recently-added-wrapper-8 {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .recently-added-image-8 {
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        background: url("../../images/recently added 8.jpg") center / cover no-repeat;
+    }
+
+    .recently-added-card-8:hover .recently-added-image-8 {
+        transform: scale(1.08);
+    }
+
+    .text-overlay {
+        inset: 0;
+        position: absolute;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+    }
+
+    .recently-added-card-8:hover .text-overlay {
+        opacity: 1;
+    }
+
+    .product-title {
+        color: $text-color;
+        font-family: $primary-font;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        opacity: 0;
+        background-color: $primary-color;
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+        transition: opacity 0.3s ease;
+    }
+
+    .recently-added-card-8:hover .product-title {
+        opacity: 1;
+    }
+
+}
+
+
+
+
+.recently-added-container9 {
+    padding: 40px 0px 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+
+    .recently-added-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 220px;
+        padding-top: 8px;
+    }
+
+    .recently-added-product-subtitle {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        color: #896226;
+    }
+
+
+    .recently-added-product-title {
+        font-family: $luxury-font;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #242424;
+
+    }
+
+    .recently-added-product-title-description {
+        color: $text-color;
+        font-family: $luxury-font;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .recently-added-price {
+        font-family: $primary-font;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        color: $black;
+    }
+
+    .recently-added-colors {
+
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+
+        .color-1 {
+            width: 10px;
+            height: 10px;
+            background: $black;
+            border-radius: 50%;
+        }
+
+        .color-10 {
+            @extend .color-1;
+            background: goldenrod;
+        }
+
+        .color-11 {
+            @extend .color-1;
+            background: #335d79;
+        }
+
+        .color-12 {
+            @extend .color-1;
+            background: rgb(167, 164, 164);
+        }
+    }
+
+    .recently-added-chat-btn {
+        margin-top: 10px;
+        transition: all 0.5s ease;
+
+        a {
+            text-decoration: none;
+            font-family: $primary-font;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #95703a 100%);
+            font-size: 11px;
+            letter-spacing: 0.1rem;
+
+        }
+
+        &:hover {
+            transform: translateY(20%)
+        }
+    }
+
+    .recently-added-card-9 {
+        overflow: hidden;
+        width: 50%;
+        min-width: 280px;
+        height: 60vh;
+        position: relative;
+        transition: transform 0.4s ease;
+    }
+
+    .recently-added-card-9:hover {
+        transform: scale(1.03);
+    }
+
+    .recently-added-wrapper-9 {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .recently-added-image-9 {
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        background: url("../../images/recently added 9.jpg") center / cover no-repeat;
+    }
+
+    .recently-added-card-9:hover .recently-added-image-9 {
+        transform: scale(1.08);
+    }
+
+    .text-overlay {
+        inset: 0;
+        position: absolute;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+    }
+
+    .recently-added-card-9:hover .text-overlay {
+        opacity: 1;
+    }
+
+    .product-title {
+        color: $text-color;
+        font-family: $primary-font;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        opacity: 0;
+        background-color: $primary-color;
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+        transition: opacity 0.3s ease;
+    }
+
+    .recently-added-card-9:hover .product-title {
+        opacity: 1;
+    }
+
+}
+
+
+
+
+
+
+.recently-added-container10 {
+    padding: 40px 0px 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+
+    .recently-added-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 220px;
+        padding-top: 8px;
+    }
+
+    .recently-added-product-subtitle {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        color: #896226;
+    }
+
+
+    .recently-added-product-title {
+        font-family: $luxury-font;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #242424;
+
+    }
+
+    .recently-added-product-title-description {
+        color: $text-color;
+        font-family: $luxury-font;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .recently-added-price {
+        font-family: $primary-font;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        color: $black;
+    }
+
+    .recently-added-colors {
+
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+
+        .color-1 {
+            width: 10px;
+            height: 10px;
+            background: $black;
+            border-radius: 50%;
+        }
+
+        .color-10 {
+            @extend .color-1;
+            background: goldenrod;
+        }
+
+        .color-11 {
+            @extend .color-1;
+            background: #335d79;
+        }
+
+        .color-12 {
+            @extend .color-1;
+            background: rgb(167, 164, 164);
+        }
+    }
+
+    .recently-added-chat-btn {
+        margin-top: 10px;
+        transition: all 0.5s ease;
+
+        a {
+            text-decoration: none;
+            font-family: $primary-font;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #95703a 100%);
+            font-size: 11px;
+            letter-spacing: 0.1rem;
+
+        }
+
+        &:hover {
+            transform: translateY(20%)
+        }
+    }
+
+    .recently-added-card-10 {
+        overflow: hidden;
+        width: 50%;
+        min-width: 280px;
+        height: 60vh;
+        position: relative;
+        transition: transform 0.4s ease;
+    }
+
+    .recently-added-card-10:hover {
+        transform: scale(1.03);
+    }
+
+    .recently-added-wrapper-10 {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .recently-added-image-10 {
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        background: url("../../images/recently added 10.jpg") center / cover no-repeat;
+    }
+
+    .recently-added-card-10:hover .recently-added-image-10 {
+        transform: scale(1.08);
+    }
+
+    .text-overlay {
+        inset: 0;
+        position: absolute;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+    }
+
+    .recently-added-card-10:hover .text-overlay {
+        opacity: 1;
+    }
+
+    .product-title {
+        color: $text-color;
+        font-family: $primary-font;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        opacity: 0;
+        background-color: $primary-color;
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+        transition: opacity 0.3s ease;
+    }
+
+    .recently-added-card-10:hover .product-title {
+        opacity: 1;
+    }
+
+}
+
+
+
+
+
+
+.recently-added-container11 {
+    padding: 40px 0px 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+
+    .recently-added-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 220px;
+        padding-top: 8px;
+    }
+
+    .recently-added-product-subtitle {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        color: #896226;
+    }
+
+
+    .recently-added-product-title {
+        font-family: $luxury-font;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #242424;
+
+    }
+
+    .recently-added-product-title-description {
+        color: $text-color;
+        font-family: $luxury-font;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .recently-added-price {
+        font-family: $primary-font;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        color: $black;
+    }
+
+    .recently-added-colors {
+
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+
+        .color-1 {
+            width: 10px;
+            height: 10px;
+            background: $black;
+            border-radius: 50%;
+        }
+
+        .color-10 {
+            @extend .color-1;
+            background: goldenrod;
+        }
+
+        .color-11 {
+            @extend .color-1;
+            background: #335d79;
+        }
+
+        .color-12 {
+            @extend .color-1;
+            background: rgb(167, 164, 164);
+        }
+    }
+
+    .recently-added-chat-btn {
+        margin-top: 10px;
+        transition: all 0.5s ease;
+
+        a {
+            text-decoration: none;
+            font-family: $primary-font;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #95703a 100%);
+            font-size: 11px;
+            letter-spacing: 0.1rem;
+
+        }
+
+        &:hover {
+            transform: translateY(20%)
+        }
+    }
+
+    .recently-added-card-11 {
+        overflow: hidden;
+        width: 50%;
+        min-width: 280px;
+        height: 60vh;
+        position: relative;
+        transition: transform 0.4s ease;
+    }
+
+    .recently-added-card-11:hover {
+        transform: scale(1.03);
+    }
+
+    .recently-added-wrapper-11 {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .recently-added-image-11 {
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        background: url("../../images/recently added 11.jpg") center / cover no-repeat;
+    }
+
+    .recently-added-card-11:hover .recently-added-image-11 {
+        transform: scale(1.08);
+    }
+
+    .text-overlay {
+        inset: 0;
+        position: absolute;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+    }
+
+    .recently-added-card-11:hover .text-overlay {
+        opacity: 1;
+    }
+
+    .product-title {
+        color: $text-color;
+        font-family: $primary-font;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        opacity: 0;
+        background-color: $primary-color;
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+        transition: opacity 0.3s ease;
+    }
+
+    .recently-added-card-11:hover .product-title {
+        opacity: 1;
+    }
+
+}
 
 
 
@@ -1262,11 +2287,871 @@ header {
 
 
 
+.recently-added-container12 {
+    padding: 40px 0px 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+
+    .recently-added-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 220px;
+        padding-top: 8px;
+    }
+
+    .recently-added-product-subtitle {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        color: #896226;
+    }
+
+
+    .recently-added-product-title {
+        font-family: $luxury-font;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #242424;
+
+    }
+
+    .recently-added-product-title-description {
+        color: $text-color;
+        font-family: $luxury-font;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .recently-added-price {
+        font-family: $primary-font;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        color: $black;
+    }
+
+    .recently-added-colors {
+
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+
+        .color-1 {
+            width: 10px;
+            height: 10px;
+            background: $black;
+            border-radius: 50%;
+        }
+
+        .color-10 {
+            @extend .color-1;
+            background: goldenrod;
+        }
+
+        .color-11 {
+            @extend .color-1;
+            background: #335d79;
+        }
+
+        .color-12 {
+            @extend .color-1;
+            background: rgb(167, 164, 164);
+        }
+    }
+
+    .recently-added-chat-btn {
+        margin-top: 10px;
+        transition: all 0.5s ease;
+
+        a {
+            text-decoration: none;
+            font-family: $primary-font;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #95703a 100%);
+            font-size: 11px;
+            letter-spacing: 0.1rem;
+
+        }
+
+        &:hover {
+            transform: translateY(20%)
+        }
+    }
+
+    .recently-added-card-12 {
+        overflow: hidden;
+        width: 50%;
+        min-width: 280px;
+        height: 60vh;
+        position: relative;
+        transition: transform 0.4s ease;
+    }
+
+    .recently-added-card-12:hover {
+        transform: scale(1.03);
+    }
+
+    .recently-added-wrapper-12 {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .recently-added-image-12 {
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        background: url("../../images/recently added 12.jpg") center / cover no-repeat;
+    }
+
+    .recently-added-card-12:hover .recently-added-image-12 {
+        transform: scale(1.08);
+    }
+
+    .text-overlay {
+        inset: 0;
+        position: absolute;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+    }
+
+    .recently-added-card-12:hover .text-overlay {
+        opacity: 1;
+    }
+
+    .product-title {
+        color: $text-color;
+        font-family: $primary-font;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        opacity: 0;
+        background-color: $primary-color;
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+        transition: opacity 0.3s ease;
+    }
+
+    .recently-added-card-12:hover .product-title {
+        opacity: 1;
+    }
+
+}
 
 
 
 
 
+
+.recently-added-container13 {
+    padding: 40px 0px 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+
+    .recently-added-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 220px;
+        padding-top: 8px;
+    }
+
+    .recently-added-product-subtitle {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        color: #896226;
+    }
+
+
+    .recently-added-product-title {
+        font-family: $luxury-font;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #242424;
+
+    }
+
+    .recently-added-product-title-description {
+        color: $text-color;
+        font-family: $luxury-font;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .recently-added-price {
+        font-family: $primary-font;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        color: $black;
+    }
+
+    .recently-added-colors {
+
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+
+        .color-1 {
+            width: 10px;
+            height: 10px;
+            background: $black;
+            border-radius: 50%;
+        }
+
+        .color-10 {
+            @extend .color-1;
+            background: goldenrod;
+        }
+
+        .color-11 {
+            @extend .color-1;
+            background: #335d79;
+        }
+
+        .color-12 {
+            @extend .color-1;
+            background: rgb(167, 164, 164);
+        }
+    }
+
+    .recently-added-chat-btn {
+        margin-top: 10px;
+        transition: all 0.5s ease;
+
+        a {
+            text-decoration: none;
+            font-family: $primary-font;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #95703a 100%);
+            font-size: 11px;
+            letter-spacing: 0.1rem;
+
+        }
+
+        &:hover {
+            transform: translateY(20%)
+        }
+    }
+
+    .recently-added-card-13 {
+        overflow: hidden;
+        width: 50%;
+        min-width: 280px;
+        height: 60vh;
+        position: relative;
+        transition: transform 0.4s ease;
+    }
+
+    .recently-added-card-13:hover {
+        transform: scale(1.03);
+    }
+
+    .recently-added-wrapper-13 {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .recently-added-image-13 {
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        background: url("../../images/recently added 13.jpg") center / cover no-repeat;
+    }
+
+    .recently-added-card-12:hover .recently-added-image-13 {
+        transform: scale(1.08);
+    }
+
+    .text-overlay {
+        inset: 0;
+        position: absolute;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+    }
+
+    .recently-added-card-13:hover .text-overlay {
+        opacity: 1;
+    }
+
+    .product-title {
+        color: $text-color;
+        font-family: $primary-font;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        opacity: 0;
+        background-color: $primary-color;
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+        transition: opacity 0.3s ease;
+    }
+
+    .recently-added-card-13:hover .product-title {
+        opacity: 1;
+    }
+
+}
+
+
+
+
+
+
+.recently-added-container14 {
+    padding: 40px 0px 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+
+    .recently-added-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 220px;
+        padding-top: 8px;
+    }
+
+    .recently-added-product-subtitle {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        color: #896226;
+    }
+
+
+    .recently-added-product-title {
+        font-family: $luxury-font;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #242424;
+
+    }
+
+    .recently-added-product-title-description {
+        color: $text-color;
+        font-family: $luxury-font;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .recently-added-price {
+        font-family: $primary-font;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        color: $black;
+    }
+
+    .recently-added-colors {
+
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+
+        .color-1 {
+            width: 10px;
+            height: 10px;
+            background: $black;
+            border-radius: 50%;
+        }
+
+        .color-10 {
+            @extend .color-1;
+            background: goldenrod;
+        }
+
+        .color-11 {
+            @extend .color-1;
+            background: #335d79;
+        }
+
+        .color-12 {
+            @extend .color-1;
+            background: rgb(167, 164, 164);
+        }
+    }
+
+    .recently-added-chat-btn {
+        margin-top: 10px;
+        transition: all 0.5s ease;
+
+        a {
+            text-decoration: none;
+            font-family: $primary-font;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #95703a 100%);
+            font-size: 11px;
+            letter-spacing: 0.1rem;
+
+        }
+
+        &:hover {
+            transform: translateY(20%)
+        }
+    }
+
+    .recently-added-card-14 {
+        overflow: hidden;
+        width: 50%;
+        min-width: 280px;
+        height: 60vh;
+        position: relative;
+        transition: transform 0.4s ease;
+    }
+
+    .recently-added-card-14:hover {
+        transform: scale(1.03);
+    }
+
+    .recently-added-wrapper-14 {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .recently-added-image-14 {
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        background: url("../../images/recently added 14.jpg") center / cover no-repeat;
+    }
+
+    .recently-added-card-14:hover .recently-added-image-14 {
+        transform: scale(1.08);
+    }
+
+    .text-overlay {
+        inset: 0;
+        position: absolute;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+    }
+
+    .recently-added-card-14:hover .text-overlay {
+        opacity: 1;
+    }
+
+    .product-title {
+        color: $text-color;
+        font-family: $primary-font;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        opacity: 0;
+        background-color: $primary-color;
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+        transition: opacity 0.3s ease;
+    }
+
+    .recently-added-card-14:hover .product-title {
+        opacity: 1;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+.recently-added-container14 {
+    padding: 40px 0px 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+
+    .recently-added-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 220px;
+        padding-top: 8px;
+    }
+
+    .recently-added-product-subtitle {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        color: #896226;
+    }
+
+
+    .recently-added-product-title {
+        font-family: $luxury-font;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #242424;
+
+    }
+
+    .recently-added-product-title-description {
+        color: $text-color;
+        font-family: $luxury-font;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .recently-added-price {
+        font-family: $primary-font;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        color: $black;
+    }
+
+    .recently-added-colors {
+
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+
+        .color-1 {
+            width: 10px;
+            height: 10px;
+            background: $black;
+            border-radius: 50%;
+        }
+
+        .color-10 {
+            @extend .color-1;
+            background: goldenrod;
+        }
+
+        .color-11 {
+            @extend .color-1;
+            background: #335d79;
+        }
+
+        .color-12 {
+            @extend .color-1;
+            background: rgb(167, 164, 164);
+        }
+    }
+
+    .recently-added-chat-btn {
+        margin-top: 10px;
+        transition: all 0.5s ease;
+
+        a {
+            text-decoration: none;
+            font-family: $primary-font;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #95703a 100%);
+            font-size: 11px;
+            letter-spacing: 0.1rem;
+
+        }
+
+        &:hover {
+            transform: translateY(20%)
+        }
+    }
+
+    .recently-added-card-14 {
+        overflow: hidden;
+        width: 50%;
+        min-width: 280px;
+        height: 60vh;
+        position: relative;
+        transition: transform 0.4s ease;
+    }
+
+    .recently-added-card-14:hover {
+        transform: scale(1.03);
+    }
+
+    .recently-added-wrapper-14 {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .recently-added-image-14 {
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        background: url("../../images/recently added 14.jpg") center / cover no-repeat;
+    }
+
+    .recently-added-card-14:hover .recently-added-image-14 {
+        transform: scale(1.08);
+    }
+
+    .text-overlay {
+        inset: 0;
+        position: absolute;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+    }
+
+    .recently-added-card-14:hover .text-overlay {
+        opacity: 1;
+    }
+
+    .product-title {
+        color: $text-color;
+        font-family: $primary-font;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        opacity: 0;
+        background-color: $primary-color;
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+        transition: opacity 0.3s ease;
+    }
+
+    .recently-added-card-14:hover .product-title {
+        opacity: 1;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+.recently-added-container15 {
+    padding: 40px 0px 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+
+    .recently-added-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 220px;
+        padding-top: 8px;
+    }
+
+    .recently-added-product-subtitle {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        color: #896226;
+    }
+
+
+    .recently-added-product-title {
+        font-family: $luxury-font;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #242424;
+
+    }
+
+    .recently-added-product-title-description {
+        color: $text-color;
+        font-family: $luxury-font;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .recently-added-price {
+        font-family: $primary-font;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        color: $black;
+    }
+
+    .recently-added-colors {
+
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+
+        .color-1 {
+            width: 10px;
+            height: 10px;
+            background: $black;
+            border-radius: 50%;
+        }
+
+        .color-10 {
+            @extend .color-1;
+            background: goldenrod;
+        }
+
+        .color-11 {
+            @extend .color-1;
+            background: #335d79;
+        }
+
+        .color-12 {
+            @extend .color-1;
+            background: rgb(167, 164, 164);
+        }
+    }
+
+    .recently-added-chat-btn {
+        margin-top: 10px;
+        transition: all 0.5s ease;
+
+        a {
+            text-decoration: none;
+            font-family: $primary-font;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #95703a 100%);
+            font-size: 11px;
+            letter-spacing: 0.1rem;
+
+        }
+
+        &:hover {
+            transform: translateY(20%)
+        }
+    }
+
+    .recently-added-card-15 {
+        overflow: hidden;
+        width: 50%;
+        min-width: 280px;
+        height: 60vh;
+        position: relative;
+        transition: transform 0.4s ease;
+    }
+
+    .recently-added-card-15:hover {
+        transform: scale(1.03);
+    }
+
+    .recently-added-wrapper-15 {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .recently-added-image-15 {
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        background: url("../../images/recently added 15.jpg") center / cover no-repeat;
+    }
+
+    .recently-added-card-15:hover .recently-added-image-15 {
+        transform: scale(1.08);
+    }
+
+    .text-overlay {
+        inset: 0;
+        position: absolute;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
+    }
+
+    .recently-added-card-15:hover .text-overlay {
+        opacity: 1;
+    }
+
+    .product-title {
+        color: $text-color;
+        font-family: $primary-font;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        opacity: 0;
+        background-color: $primary-color;
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+        transition: opacity 0.3s ease;
+    }
+
+    .recently-added-card-15:hover .product-title {
+        opacity: 1;
+    }
+
+}
 
 
 
@@ -1510,6 +3395,168 @@ header {
     }
 }
 
+
+
+// Navigation Bar
+
+#menu {
+    width: 85%;
+}
+
+.offcanvas {
+    background: rgba(250, 247, 242, 0.95);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 24px 60px rgba(28, 25, 23, 0.16);
+    border-right: 1px solid rgba(28, 25, 23, 0.08);
+    width: 80vw;
+
+    .offcanvas-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 22px 16px;
+        border-bottom: 1px solid rgba(28, 25, 23, 0.08);
+
+        .offcanvas-title {
+            font-family: $luxury-font;
+            text-decoration: none;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #5a4628 100%);
+            background-clip: text;
+            color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            font-size: 0.95rem;
+            font-weight: 700;
+
+            a {
+                text-decoration: none;
+                background: linear-gradient(135deg,
+                        #1C1917 0%,
+                        #5a4628 100%);
+                background-clip: text;
+                color: transparent;
+            }
+        }
+
+        .offcanvas-close {
+            width: 40px;
+            height: 40px;
+            border: 0;
+            border-radius: 50%;
+            background: rgba(28, 25, 23, 0.06);
+            display: grid;
+            place-items: center;
+            color: $black;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background: rgba(28, 25, 23, 0.12);
+                transform: translateX(-2px);
+            }
+
+            i {
+                color: $black;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
+
+
+
+    .offcanvas-body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 16px 24px;
+
+        .nav-1 {
+            font-family: $luxury-font;
+            font-size: 1.1rem;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background: rgba(205, 202, 202, 0.7);
+                transform: translateX(3px);
+            }
+
+            a {
+                color: $black;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+                width: 100%;
+                padding: 0.8rem 0.7rem;
+            }
+
+            i {
+                color: rgb(105, 104, 104);
+                font-size: 1rem;
+                flex-shrink: 0;
+            }
+
+            .verified-pulse {
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background: #22c55e;
+                position: relative;
+                flex-shrink: 0;
+                display: inline-block;
+                margin-left: auto;
+            }
+
+            .verified-pulse::before,
+            .verified-pulse::after {
+                content: "";
+                position: absolute;
+                inset: 0;
+                border-radius: 50%;
+                border: 2px solid rgba(34, 197, 94, .5);
+                animation: radarPulse 2s infinite;
+            }
+
+            .verified-pulse::after {
+                animation-delay: 1s;
+            }
+
+            @keyframes radarPulse {
+                0% {
+                    transform: scale(1);
+                    opacity: .8;
+                }
+
+                70% {
+                    transform: scale(3);
+                    opacity: 0;
+                }
+
+                100% {
+                    transform: scale(3);
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+#line-demacator {
+    width: 100%;
+    height: 0.5px;
+    background: rgba(28, 25, 23, 0.2);
+    margin: 5px 0px 10px 0px;
+}
+
+
+
 @media (max-width: 780px) {
     .footer {
         padding: 48px 24px 24px;
@@ -1530,4 +3577,173 @@ header {
         align-items: flex-start;
     }
 
+}
+
+
+
+
+
+
+// Media Queries mobile responsiveness
+
+@media (max-width: 480px) {
+
+    // Pre-header Section
+
+    .pre-header {
+        p {
+            display: none;
+        }
+
+        div {
+            color: $main-color;
+            font-family: $primary-font;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            font-size: 11px;
+            background: linear-gradient(135deg,
+                    #1C1917 0%,
+                    #5a4628 100%);
+            top: 0;
+
+            padding: 12px 0px;
+            font-weight: $bold;
+            overflow: hidden;
+            transition: all 0.5s ease;
+            display: block;
+        }
+    }
+
+
+    // Header
+
+    .header {
+        padding: 5px 0px;
+
+        .menu-bar,
+        .icon-header {
+            display: flex;
+            align-items: center;
+        }
+
+        .icon-header {
+            gap: 16px;
+
+            a {
+                display: block;
+                color: $black;
+                font-size: 18px;
+            }
+        }
+
+        .logo,
+        ul {
+            display: none;
+        }
+
+        #menu-icon {
+            font-size: 28px;
+            cursor: pointer;
+        }
+    }
+
+
+    //Shop Heading
+
+    .shop-heading-container {
+
+        padding: 80px 0px 0px 25px;
+
+        .shop-heading {
+            font-family: $primary-font;
+            letter-spacing: 0.19rem;
+            color: #67605B;
+            font-weight: $medium;
+            font-size: 11.5px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .shop-heading2 {
+            color: #1C1917;
+            font-family: $luxury-font;
+            font-weight: $medium;
+            font-size: 50px;
+            line-height: 1.1;
+        }
+
+        .shop-heading3 {
+            color: #67605B;
+            font-weight: $light;
+            font-size: 16px;
+            margin-top: 5px;
+            font-family: $primary-font;
+            line-height: 1.7;
+        }
+
+        .line-demacator {
+            width: 93%;
+            height: 0.5px;
+            background: rgba(28, 25, 23, 0.2);
+            margin: 35px 0px 35px 0px;
+        }
+
+    }
+
+
+    // sidebar container
+
+    .sidebar-container {
+        display: none;
+    }
+
+
+
+    // Recently added Containers
+
+    .recently-added-container,
+    .recently-added-container2,
+    .recently-added-container3,
+    .recently-added-container4,
+    .recently-added-container5,
+    .recently-added-container6,
+    .recently-added-container7,
+    .recently-added-container8,
+    .recently-added-container9,
+    .recently-added-container10,
+    .recently-added-container11,
+    .recently-added-container12,
+    .recently-added-container13,
+    .recently-added-container14,
+    .recently-added-container15 {
+        padding: 40px 0px 0px 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+
+        .recently-added-card,
+        .recently-added-card-2,
+        .recently-added-card-3,
+        .recently-added-card-4,
+        .recently-added-card-5,
+        .recently-added-card-6,
+        .recently-added-card-7,
+        .recently-added-card-8,
+        .recently-added-card-9,
+        .recently-added-card-10,
+        .recently-added-card-11,
+        .recently-added-card-12,
+        .recently-added-card-13,
+        .recently-added-card-14,
+        .recently-added-card-15 {
+            overflow: hidden;
+            width: 93%;
+            height: 50vh;
+            position: relative;
+            transition: transform 0.4s ease;
+        }
+    }
 }
