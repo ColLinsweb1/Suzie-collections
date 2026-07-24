@@ -478,7 +478,7 @@ header .icon-header a {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
-  background: url("../../images/recently added 1.png") center/cover no-repeat;
+  background: url("../../images/recently added 1.jpg") center/cover no-repeat;
 }
 .recently-added-container .recently-added-card:hover .recently-added-image, .recently-added-container .recently-added-container2 .recently-added-card-2:hover .recently-added-image, .recently-added-container2 .recently-added-container .recently-added-card-2:hover .recently-added-image {
   -webkit-transform: scale(1.08);
@@ -645,7 +645,7 @@ header .icon-header a {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
-  background: url("../../images/recently added 2.png") center/cover no-repeat;
+  background: url("../../images/recently added 2.jpg") center/cover no-repeat;
 }
 .recently-added-container2 .recently-added-card:hover .recently-added-image-2, .recently-added-container2 .recently-added-card-2:hover .recently-added-image-2 {
   -webkit-transform: scale(1.08);
@@ -812,7 +812,7 @@ header .icon-header a {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
-  background: url("../../images/recently added 3.png") center/cover no-repeat;
+  background: url("../../images/recently added 3.jpg") center/cover no-repeat;
 }
 .recently-added-container3 .recently-added-card-3:hover .recently-added-image-3 {
   -webkit-transform: scale(1.08);
@@ -979,7 +979,7 @@ header .icon-header a {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
-  background: url("../../images/recently added 4.png") center/cover no-repeat;
+  background: url("../../images/recently added 4.jpg") center/cover no-repeat;
 }
 .recently-added-container4 .recently-added-card-4:hover .recently-added-image-4 {
   -webkit-transform: scale(1.08);

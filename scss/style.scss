@@ -149,14 +149,14 @@ header {
 // Main section
 
 main {
-  background: url("../../images/hero-img.png") center / cover no-repeat;
+  background: url("../../images/hero-img.jpg") center / cover no-repeat;
   min-height: 100vh;
   width: 100%;
   transition: all 0.7s ease;
   position: relative;
 
   &:hover {
-    background: url("../../images/hero-img2.png") center / cover no-repeat;
+    background: url("../../images/hero-img2.jpg") center / cover no-repeat;
     min-height: 100vh;
     width: 100%;
     position: relative;
@@ -841,19 +841,19 @@ main {
     width: 100%;
     object-fit: cover;
     cursor: pointer;
-    background: url("../../images/recently added 1.png") center / cover no-repeat;
+    background: url("../../images/recently added 1.jpg") center / cover no-repeat;
   }
 
   .recently-added-image-2 {
-    background: url("../../images/recently added 2.png") center / cover no-repeat;
+    background: url("../../images/recently added 2.jpg") center / cover no-repeat;
   }
 
   .recently-added-image-3 {
-    background: url("../../images/recently added 3.png") center / cover no-repeat;
+    background: url("../../images/recently added 3.jpg") center / cover no-repeat;
   }
 
   .recently-added-image-4 {
-    background: url("../../images/recently added 4.png") center / cover no-repeat;
+    background: url("../../images/recently added 4.jpg") center / cover no-repeat;
   }
 
 
@@ -1066,7 +1066,7 @@ main {
   .rituals-image {
     height: 55vh;
     width: 35%;
-    background: url("../../images/rituals image.png") center / cover no-repeat;
+    background: url("../../images/rituals image.jpg") center / cover no-repeat;
   }
 
 
@@ -1082,25 +1082,25 @@ main {
       position: relative;
       height: 100%;
       width: 100%;
-      background: url("../../images/step 1 shop.png") top / cover no-repeat;
+      background: url("../../images/step 1 shop.jpg") top / cover no-repeat;
 
     }
 
     .rituals-image-2 {
       @extend .rituals-image-1;
-      background: url("../../images/step 2 get ready.png") top / cover no-repeat;
+      background: url("../../images/step 2 get ready.jpg") top / cover no-repeat;
     }
 
     .rituals-image-3 {
 
       @extend .rituals-image-1;
-      background: url("../../images/step 3 materials.png") top / cover no-repeat;
+      background: url("../../images/step 3 materials.jpg") top / cover no-repeat;
     }
 
     .rituals-image-4 {
 
       @extend .rituals-image-1;
-      background: url("../../images/step 4 accessories.png") top / cover no-repeat;
+      background: url("../../images/step 4 accessories.jpg") top / cover no-repeat;
     }
 
     .rituals-text-overlay {
@@ -1256,7 +1256,7 @@ main {
       }
 
       .most-picked-image-2 {
-        background-image: url("../../images/recently added 3.png");
+        background-image: url("../../images/recently added 3.jpg");
       }
 
       .most-picked-image-3 {
