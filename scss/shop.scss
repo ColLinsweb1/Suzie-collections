@@ -556,7 +556,7 @@ header {
 }
 
 
-
+// Recently added container 2
 
 .recently-added-container2 {
     padding: 40px 0px 0px 80px;
@@ -698,15 +698,9 @@ header {
         background: url("../../images/recently added 2.jpg") center / cover no-repeat;
     }
 
-
-
-
-
     .recently-added-card:hover .recently-added-image-2 {
         transform: scale(1.08);
     }
-
-
 
     .text-overlay {
         inset: 0;
@@ -743,6 +737,9 @@ header {
 }
 
 
+
+// Recently added container 3
+
 .recently-added-container3 {
     padding: 40px 0px 0px 80px;
     display: flex;
@@ -766,13 +763,11 @@ header {
         color: #896226;
     }
 
-
     .recently-added-product-title {
         font-family: $luxury-font;
         font-size: 1.3rem;
         font-weight: 600;
         color: #242424;
-
     }
 
     .recently-added-product-title-description {
@@ -911,6 +906,9 @@ header {
 
 }
 
+
+
+// Recently added container 4
 
 .recently-added-container4 {
     padding: 40px 0px 0px 80px;
@@ -1082,6 +1080,7 @@ header {
 
 
 
+// Recently added container 5
 
 .recently-added-container5 {
     padding: 40px 0px 0px 80px;
@@ -1252,6 +1251,9 @@ header {
 }
 
 
+
+// Recently added container 6
+
 .recently-added-container6 {
     padding: 40px 0px 0px 80px;
     display: flex;
@@ -1281,7 +1283,6 @@ header {
         font-size: 1.3rem;
         font-weight: 600;
         color: #242424;
-
     }
 
     .recently-added-product-title-description {
@@ -1420,6 +1421,9 @@ header {
 
 }
 
+
+
+// Recently added container 7
 
 .recently-added-container7 {
     padding: 40px 0px 0px 80px;
@@ -1593,6 +1597,8 @@ header {
 
 
 
+// Recently added container
+
 .recently-added-container8 {
     padding: 40px 0px 0px 80px;
     display: flex;
@@ -1763,6 +1769,8 @@ header {
 
 
 
+
+// Recently added container 9
 
 .recently-added-container9 {
     padding: 40px 0px 0px 80px;
@@ -1935,7 +1943,7 @@ header {
 
 
 
-
+// Recently added container 10
 
 .recently-added-container10 {
     padding: 40px 0px 0px 80px;
@@ -2108,7 +2116,7 @@ header {
 
 
 
-
+// Recently added container 11
 
 .recently-added-container11 {
     padding: 40px 0px 0px 80px;
@@ -2280,12 +2288,7 @@ header {
 
 
 
-
-
-
-
-
-
+// Recently added container 12
 
 .recently-added-container12 {
     padding: 40px 0px 0px 80px;
@@ -2457,8 +2460,7 @@ header {
 
 
 
-
-
+// Recently added container 13
 
 .recently-added-container13 {
     padding: 40px 0px 0px 80px;
@@ -2630,184 +2632,7 @@ header {
 
 
 
-
-
-
-.recently-added-container14 {
-    padding: 40px 0px 0px 80px;
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-
-
-    .recently-added-info {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        width: 220px;
-        padding-top: 8px;
-    }
-
-    .recently-added-product-subtitle {
-        font-family: $primary-font;
-        text-transform: uppercase;
-        font-size: 0.8rem;
-        letter-spacing: 0.2rem;
-        color: #896226;
-    }
-
-
-    .recently-added-product-title {
-        font-family: $luxury-font;
-        font-size: 1.3rem;
-        font-weight: 600;
-        color: #242424;
-
-    }
-
-    .recently-added-product-title-description {
-        color: $text-color;
-        font-family: $luxury-font;
-        font-size: 0.9rem;
-        width: 100%;
-    }
-
-    .recently-added-price {
-        font-family: $primary-font;
-        font-size: 0.9rem;
-        font-weight: 700;
-        letter-spacing: 0.2rem;
-        text-transform: uppercase;
-        color: $black;
-    }
-
-    .recently-added-colors {
-
-        display: flex;
-        justify-content: start;
-        gap: 10px;
-
-        .color-1 {
-            width: 10px;
-            height: 10px;
-            background: $black;
-            border-radius: 50%;
-        }
-
-        .color-10 {
-            @extend .color-1;
-            background: goldenrod;
-        }
-
-        .color-11 {
-            @extend .color-1;
-            background: #335d79;
-        }
-
-        .color-12 {
-            @extend .color-1;
-            background: rgb(167, 164, 164);
-        }
-    }
-
-    .recently-added-chat-btn {
-        margin-top: 10px;
-        transition: all 0.5s ease;
-
-        a {
-            text-decoration: none;
-            font-family: $primary-font;
-            padding: 10px 15px;
-            text-transform: uppercase;
-            color: white;
-            border: none;
-            background: linear-gradient(135deg,
-                    #1C1917 0%,
-                    #95703a 100%);
-            font-size: 11px;
-            letter-spacing: 0.1rem;
-
-        }
-
-        &:hover {
-            transform: translateY(20%)
-        }
-    }
-
-    .recently-added-card-14 {
-        overflow: hidden;
-        width: 50%;
-        min-width: 280px;
-        height: 60vh;
-        position: relative;
-        transition: transform 0.4s ease;
-    }
-
-    .recently-added-card-14:hover {
-        transform: scale(1.03);
-    }
-
-    .recently-added-wrapper-14 {
-        overflow: hidden;
-        height: 100%;
-        width: 100%;
-    }
-
-    .recently-added-image-14 {
-        overflow: hidden;
-        transition: transform 0.5s ease;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        cursor: pointer;
-        background: url("../../images/recently added 14.jpg") center / cover no-repeat;
-    }
-
-    .recently-added-card-14:hover .recently-added-image-14 {
-        transform: scale(1.08);
-    }
-
-    .text-overlay {
-        inset: 0;
-        position: absolute;
-        flex-direction: column;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
-    }
-
-    .recently-added-card-14:hover .text-overlay {
-        opacity: 1;
-    }
-
-    .product-title {
-        color: $text-color;
-        font-family: $primary-font;
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        letter-spacing: 0.2rem;
-        opacity: 0;
-        background-color: $primary-color;
-        width: fit-content;
-        margin-top: 10px;
-        margin-left: 10px;
-        padding: 5px 10px;
-        transition: opacity 0.3s ease;
-    }
-
-    .recently-added-card-14:hover .product-title {
-        opacity: 1;
-    }
-
-}
-
-
-
-
-
-
-
-
+// Recently added container 14
 
 .recently-added-container14 {
     padding: 40px 0px 0px 80px;
@@ -2981,9 +2806,7 @@ header {
 
 
 
-
-
-
+// Recently added container 15
 
 .recently-added-container15 {
     padding: 40px 0px 0px 80px;
@@ -3152,7 +2975,6 @@ header {
     }
 
 }
-
 
 
 
@@ -3355,6 +3177,16 @@ header {
             color: rgba(245, 243, 239, 0.4);
             width: 80%;
         }
+    }
+
+    .line2 {
+        width: 100%;
+        height: 1px;
+        background: linear-gradient(to right,
+                transparent,
+                #C8A96A,
+                transparent);
+
     }
 
     .footer-bottom {
@@ -3578,7 +3410,6 @@ header {
     }
 
 }
-
 
 
 

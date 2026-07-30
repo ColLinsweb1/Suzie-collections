@@ -2692,173 +2692,6 @@ header .icon-header a {
   opacity: 1;
 }
 
-.recently-added-container14 {
-  padding: 40px 0px 0px 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  gap: 20px;
-}
-.recently-added-container14 .recently-added-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 8px;
-  width: 220px;
-  padding-top: 8px;
-}
-.recently-added-container14 .recently-added-product-subtitle {
-  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  letter-spacing: 0.2rem;
-  color: #896226;
-}
-.recently-added-container14 .recently-added-product-title {
-  font-family: Fraunces, ui-serif, Georgia, serif;
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #242424;
-}
-.recently-added-container14 .recently-added-product-title-description {
-  color: rgb(95, 94, 94);
-  font-family: Fraunces, ui-serif, Georgia, serif;
-  font-size: 0.9rem;
-  width: 100%;
-}
-.recently-added-container14 .recently-added-price {
-  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
-  color: rgb(36, 36, 36);
-}
-.recently-added-container14 .recently-added-colors {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  gap: 10px;
-}
-.recently-added-container14 .recently-added-colors .color-1, .recently-added-container14 .recently-added-container .recently-added-colors .color-2, .recently-added-container .recently-added-container14 .recently-added-colors .color-2, .recently-added-container14 .recently-added-container .recently-added-colors .color-3, .recently-added-container .recently-added-container14 .recently-added-colors .color-3, .recently-added-container14 .recently-added-container2 .recently-added-colors .color-4, .recently-added-container2 .recently-added-container14 .recently-added-colors .color-4, .recently-added-container14 .recently-added-container2 .recently-added-colors .color-5, .recently-added-container2 .recently-added-container14 .recently-added-colors .color-5, .recently-added-container14 .recently-added-container2 .recently-added-colors .color-6, .recently-added-container2 .recently-added-container14 .recently-added-colors .color-6, .recently-added-container14 .recently-added-container3 .recently-added-colors .color-7, .recently-added-container3 .recently-added-container14 .recently-added-colors .color-7, .recently-added-container14 .recently-added-container3 .recently-added-colors .color-8, .recently-added-container3 .recently-added-container14 .recently-added-colors .color-8, .recently-added-container14 .recently-added-container3 .recently-added-colors .color-9, .recently-added-container3 .recently-added-container14 .recently-added-colors .color-9, .recently-added-container14 .recently-added-colors .color-10, .recently-added-container14 .recently-added-colors .color-11, .recently-added-container14 .recently-added-colors .color-12 {
-  width: 10px;
-  height: 10px;
-  background: rgb(36, 36, 36);
-  border-radius: 50%;
-}
-.recently-added-container14 .recently-added-colors .color-10 {
-  background: goldenrod;
-}
-.recently-added-container14 .recently-added-colors .color-11 {
-  background: #335d79;
-}
-.recently-added-container14 .recently-added-colors .color-12 {
-  background: rgb(167, 164, 164);
-}
-.recently-added-container14 .recently-added-chat-btn {
-  margin-top: 10px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.recently-added-container14 .recently-added-chat-btn a {
-  text-decoration: none;
-  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  color: white;
-  border: none;
-  background: linear-gradient(135deg, #1C1917 0%, #95703a 100%);
-  font-size: 11px;
-  letter-spacing: 0.1rem;
-}
-.recently-added-container14 .recently-added-chat-btn:hover {
-  -webkit-transform: translateY(20%);
-          transform: translateY(20%);
-}
-.recently-added-container14 .recently-added-card-14 {
-  overflow: hidden;
-  width: 50%;
-  min-width: 280px;
-  height: 60vh;
-  position: relative;
-  -webkit-transition: -webkit-transform 0.4s ease;
-  transition: -webkit-transform 0.4s ease;
-  transition: transform 0.4s ease;
-  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
-}
-.recently-added-container14 .recently-added-card-14:hover {
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
-}
-.recently-added-container14 .recently-added-wrapper-14 {
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-}
-.recently-added-container14 .recently-added-image-14 {
-  overflow: hidden;
-  -webkit-transition: -webkit-transform 0.5s ease;
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  cursor: pointer;
-  background: url("../../images/recently added 14.jpg") center/cover no-repeat;
-}
-.recently-added-container14 .recently-added-card-14:hover .recently-added-image-14 {
-  -webkit-transform: scale(1.08);
-          transform: scale(1.08);
-}
-.recently-added-container14 .text-overlay {
-  inset: 0;
-  position: absolute;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  opacity: 0;
-  -webkit-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.06)), to(rgba(20, 18, 16, 0.68)));
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(20, 18, 16, 0.68) 100%);
-}
-.recently-added-container14 .recently-added-card-14:hover .text-overlay {
-  opacity: 1;
-}
-.recently-added-container14 .product-title {
-  color: rgb(95, 94, 94);
-  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  opacity: 0;
-  background-color: whitesmoke;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin-top: 10px;
-  margin-left: 10px;
-  padding: 5px 10px;
-  -webkit-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
-}
-.recently-added-container14 .recently-added-card-14:hover .product-title {
-  opacity: 1;
-}
-
 .recently-added-container15 {
   padding: 40px 0px 0px 80px;
   display: -webkit-box;
@@ -3246,6 +3079,12 @@ header .icon-header a {
   font-size: 0.8rem;
   color: rgba(245, 243, 239, 0.4);
   width: 80%;
+}
+.footer .line2 {
+  width: 100%;
+  height: 1px;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#C8A96A), to(transparent));
+  background: linear-gradient(to right, transparent, #C8A96A, transparent);
 }
 .footer .footer-bottom {
   display: -webkit-box;
